@@ -1,0 +1,8 @@
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleRandomizer.exe.config
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleRandomizer.exe
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleRandomizer.pdb
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.csproj.AssemblyReference.cache
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.csproj.SuggestedBindingRedirects.cache
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.csproj.CoreCompileInputs.cache
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.exe
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.pdb
