@@ -1,0 +1,17 @@
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.csproj.AssemblyReference.cache
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.csproj.CoreCompileInputs.cache
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleToolkit.exe.config
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleToolkit.exe
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleToolkit.pdb
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleR.C57C6562.Up2Date
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleToolkit.exe
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleToolkit.pdb
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\Countries.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\DicesSettings.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\Alphabets.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\Magic8BallAnswers.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\NumbersSettings.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\PasswordSettings.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Resources\TeamsSettings.json
