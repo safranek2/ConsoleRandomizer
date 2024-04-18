@@ -1,0 +1,15 @@
+{
+  "alphabet": { // Slovník obsahující abecedy různých jazyků
+    "English": "ABCDEFGHIJKLMNOPQRSTUVWXYZ", // {Název abecedy}: {abeceda}
+    "French": "ABCDEFGHIJKLMNOPQRSTUVWXYZÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸ",
+    "German": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß",
+    "Polish": "AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ",
+    "Portuguese": "ABCDEFGHIJKLMNOPQRSTUVWXYZÁÀÂÃÉÊÍÓÔÕÚÜÇ",
+    "Romanian": "AĂÂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ",
+    "Russian": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
+    "Slovak": "AÁÄBCČDĎEÉĚFGHIÍJKLMNŇOÓÔPQRŘŔSŠTŤUÚŮVWXYÝZŽ",
+    "Spanish": "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜ",
+    "Turkish": "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ",
+    "Ukrainian": "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ"
+  }
+}

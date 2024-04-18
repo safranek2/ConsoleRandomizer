@@ -1,0 +1,6 @@
+{
+  "minDice": null, // Minimální počet kostek
+  "maxDice": 10, //Maximální počet kostek
+  "minSides": 3, // Minimální počet stran kostky
+  "maxSides": 100 // Maximální počet stran kostky
+}

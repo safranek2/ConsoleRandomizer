@@ -1,0 +1,4 @@
+{
+  "minTeams": null, // Minimální počet týmů
+  "maxTeams": 12 // Maximální počet týmů
+}

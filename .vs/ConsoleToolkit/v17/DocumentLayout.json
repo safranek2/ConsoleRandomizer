@@ -3,8 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\jsonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\jsonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\tests\\jsonloaderunittests\\loadcountriesfromjsontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\tests\\jsonloaderunittests\\loadcountriesfromjsontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleRandomizer.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\randomizer\\cardgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleRandomizer.csproj|solutionrelative:consoletoolkit\\randomizer\\cardgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\randomizer\\jsonclasses\\alphabets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\randomizer\\jsonclasses\\alphabets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ConsoleRandomizer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\randomizer\\randimizermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\randomizer\\randimizermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\randomizer\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\randomizer\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\randomizer\\jsonclasses\\passwordsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\randomizer\\jsonclasses\\passwordsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\randomizer\\jsonclasses\\countries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\randomizer\\jsonclasses\\countries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\resources\\teamssettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\resources\\teamssettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\resources\\passwordsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\resources\\passwordsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\resources\\teamssettings.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleToolkit.csproj|solutionrelative:consoletoolkit\\resources\\teamssettings.json||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consolerandomizer\\countrygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +84,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consolerandomizer\\timegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:consolerandomizer\\timegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D42B7A-08D3-47B7-9B2E-E30ED3B876AB}|ConsoleToolkit\\ConsoleRandomizer.csproj|c:\\users\\safra\\onedrive\\plocha\\consolerandomizer\\consoletoolkit\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,24 +96,179 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\CardGenerator.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Randomizer\\CardGenerator.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\CardGenerator.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Randomizer\\CardGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:43:33.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsoleRandomizer",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\ConsoleRandomizer.csproj",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\ConsoleRandomizer.csproj",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\ConsoleRandomizer.csproj",
+              "RelativeToolTip": "ConsoleToolkit\\ConsoleRandomizer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-16T15:42:35.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Alphabets.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\JSONClasses\\Alphabets.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Randomizer\\JSONClasses\\Alphabets.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\JSONClasses\\Alphabets.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Randomizer\\JSONClasses\\Alphabets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:38:35.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadCountriesFromJSONTest.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Tests\\JSONLoaderUnitTests\\LoadCountriesFromJSONTest.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Tests\\JSONLoaderUnitTests\\LoadCountriesFromJSONTest.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Tests\\JSONLoaderUnitTests\\LoadCountriesFromJSONTest.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Tests\\JSONLoaderUnitTests\\LoadCountriesFromJSONTest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:37:37.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\PasswordGenerator.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Randomizer\\PasswordGenerator.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\PasswordGenerator.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Randomizer\\PasswordGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:30:38.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Countries.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\JSONClasses\\Countries.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Randomizer\\JSONClasses\\Countries.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\JSONClasses\\Countries.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Randomizer\\JSONClasses\\Countries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:12:08.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RandimizerMenu.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\RandimizerMenu.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Randomizer\\RandimizerMenu.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\RandimizerMenu.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Randomizer\\RandimizerMenu.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwCIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:57:32.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "JSONLoader.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\JSONLoader.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\JSONLoader.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\JSONLoader.cs",
+              "RelativeToolTip": "ConsoleToolkit\\JSONLoader.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAmwNkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:37:46.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleToolkit\\Program.cs",
               "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Program.cs",
               "RelativeToolTip": "ConsoleToolkit\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T19:06:29.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": "TeamsSettings.json",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "RelativeToolTip": "ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T14:52:54.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordSettings.cs",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\JSONClasses\\PasswordSettings.cs",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Randomizer\\JSONClasses\\PasswordSettings.cs",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Randomizer\\JSONClasses\\PasswordSettings.cs",
+              "RelativeToolTip": "ConsoleToolkit\\Randomizer\\JSONClasses\\PasswordSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:40:20.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamsSettings.json",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "RelativeToolTip": "ConsoleToolkit\\Resources\\TeamsSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T14:52:48.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordSettings.json",
+              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Resources\\PasswordSettings.json",
+              "RelativeDocumentMoniker": "ConsoleToolkit\\Resources\\PasswordSettings.json",
+              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleToolkit\\Resources\\PasswordSettings.json",
+              "RelativeToolTip": "ConsoleToolkit\\Resources\\PasswordSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T14:38:28.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CountryGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\CountryGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\CountryGenerator.cs",
@@ -76,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "LetterGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\LetterGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\LetterGenerator.cs",
@@ -84,11 +289,12 @@
               "RelativeToolTip": "ConsoleRandomizer\\LetterGenerator.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwDoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T20:10:02.642Z"
+              "WhenOpened": "2024-04-12T20:10:02.642Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "CardGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\CardGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\CardGenerator.cs",
@@ -96,11 +302,12 @@
               "RelativeToolTip": "ConsoleRandomizer\\CardGenerator.cs",
               "ViewState": "AQIAAHEAAAAAAAAAAAAwwIsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T20:09:52.695Z"
+              "WhenOpened": "2024-04-12T20:09:52.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "OptionsGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\OptionsGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\OptionsGenerator.cs",
@@ -108,11 +315,12 @@
               "RelativeToolTip": "ConsoleRandomizer\\OptionsGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T19:57:03.555Z"
+              "WhenOpened": "2024-04-12T19:57:03.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "PasswordGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\PasswordGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\PasswordGenerator.cs",
@@ -120,11 +328,12 @@
               "RelativeToolTip": "ConsoleRandomizer\\PasswordGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T19:57:00.697Z"
+              "WhenOpened": "2024-04-12T19:57:00.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "TeamsGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\TeamsGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\TeamsGenerator.cs",
@@ -132,11 +341,12 @@
               "RelativeToolTip": "ConsoleRandomizer\\TeamsGenerator.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAAAFYAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T19:56:55.587Z"
+              "WhenOpened": "2024-04-12T19:56:55.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "ColorGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\ColorGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\ColorGenerator.cs",
@@ -144,11 +354,12 @@
               "RelativeToolTip": "ConsoleRandomizer\\ColorGenerator.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T19:51:55.778Z"
+              "WhenOpened": "2024-04-12T19:51:55.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "TimeGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\TimeGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\TimeGenerator.cs",
@@ -156,7 +367,8 @@
               "RelativeToolTip": "ConsoleRandomizer\\TimeGenerator.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T19:50:33.595Z"
+              "WhenOpened": "2024-04-12T19:50:33.595Z",
+              "EditorCaption": ""
             }
           ]
         }
