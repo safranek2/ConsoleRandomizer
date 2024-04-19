@@ -58,7 +58,7 @@ namespace ConsoleRandomizer
             int blue = random.Next(256);
 
             // Sestaví hexadecimální reprezentaci barvy
-            string color = $"#{red:X2)}{green:X2}{blue:X2}";
+            string color = $"#{red:X2}{green:X2}{blue:X2}";
 
             return color;
         }
