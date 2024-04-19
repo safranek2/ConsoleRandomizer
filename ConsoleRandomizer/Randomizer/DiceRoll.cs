@@ -6,7 +6,7 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro házení hracích kostek a zpracování uživatelského vstupu.
     /// </summary>
-    public class DiceRoll
+    public class DiceRoll : RandomizerBase
     {
         /// <summary>
         /// Konstruktor třídy DiceRoll.
@@ -23,9 +23,6 @@ namespace ConsoleRandomizer
             maxSides = diceSettings.MaxSides;
         }
 
-        private Random random = new Random(); // Instance pro generování náhodných čísel
-        private ErrorController errorController = new ErrorController(); // Instance pro správu chyb
-
         private int minDice; // Minimální počet kostek
         private int maxDice; // Maximální počet kostek
         private int minSides; // Minimální počet stran kostky
@@ -34,7 +31,7 @@ namespace ConsoleRandomizer
         /// <summary>
         /// Zobrazí menu pro házení kostek a zpracuje uživatelský vstup.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             int count = 0; // Počet kostek
             int sides = 0; // Počet stran kostky
@@ -58,12 +55,12 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError($"You have entered a number out of range {minDice}-{maxDice}!");
+                        PrintError($"You have entered a number out of range {minDice}-{maxDice}!");
                     }
                 }
                 else
                 {
-                    errorController.PrintError("You didn't enter a valid number!");
+                    PrintError("You didn't enter a valid number!");
                 }
             }
 
@@ -86,12 +83,12 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError($"You have entered a number out of range {minSides}-{maxSides}!");
+                        PrintError($"You have entered a number out of range {minSides}-{maxSides}!");
                     }
                 }
                 else
                 {
-                    errorController.PrintError("You didn't enter a valid number!");
+                    PrintError("You didn't enter a valid number!");
                 }
             }
 
@@ -104,7 +101,7 @@ namespace ConsoleRandomizer
         /// </summary>
         /// <param name="count">Počet kostek.</param>
         /// <param name="sides">Počet stran kostky.</param>
-        public void GenerateDices(int count, int sides)
+        private void GenerateDices(int count, int sides)
         {
             int results = 0; // Celkový součet hodnot kostek
 

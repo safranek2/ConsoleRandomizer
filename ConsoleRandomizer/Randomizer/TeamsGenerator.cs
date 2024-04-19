@@ -7,14 +7,8 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída <c>TeamsGenerator</c> slouží k generování týmů na základě uživatelských vstupů.
     /// </summary>
-    public class TeamsGenerator
+    public class TeamsGenerator : RandomizerBase
     {
-        private Random random = new Random(); // Instance generátoru náhodných čísel.
-        private ErrorController errorController = new ErrorController(); // Instance řadiče chyb.
-
-        private int minTeams; // Minimální počet týmů.
-        private int maxTeams; // Maximální počet týmů.
-
         /// <summary>
         /// Konstruktor třídy <c>TeamsGenerator</c> inicializuje instanci generátoru náhodných čísel a načte nastavení týmů z JSON souboru.
         /// </summary>
@@ -27,10 +21,13 @@ namespace ConsoleRandomizer
             maxTeams = teamsSettings.MaxTeams; // Nastavení maximálního počtu týmů.
         }
 
+        private int minTeams; // Minimální počet týmů.
+        private int maxTeams; // Maximální počet týmů.
+
         /// <summary>
         /// Zobrazí menu pro generování týmů a zpracovává uživatelské vstupy.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             List<string> names = new List<string>(); // Seznam jmen pro týmy.
             bool enabled = false; // Příznak, zda je možné vytvářet týmy.
@@ -71,12 +68,12 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError("You entered an invalid number!"); // Vypsání chybového hlášení.
+                        PrintError("You entered an invalid number!"); // Vypsání chybového hlášení.
                     }
                 }
                 else
                 {
-                    errorController.PrintError("You didn't enter a number!"); // Vypsání chybového hlášení.
+                    PrintError("You didn't enter a number!"); // Vypsání chybového hlášení.
                 }
             }
 
@@ -92,7 +89,7 @@ namespace ConsoleRandomizer
                     // Kontrola platnosti zadaného počtu týmů.
                     if (count >= names.Count)
                     {
-                        errorController.PrintError("The number of teams must be less than or equal to the number of names!");
+                        PrintError("The number of teams must be less than or equal to the number of names!");
                     }
                     else if (count >= minTeams && count <= maxTeams)
                     {
@@ -100,7 +97,7 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError($"You entered a number outside the range of {minTeams}-{maxTeams}!");
+                        PrintError($"You entered a number outside the range of {minTeams}-{maxTeams}!");
                     }
                 }
                 else if (answer.Equals("exit"))
@@ -109,7 +106,7 @@ namespace ConsoleRandomizer
                 }
                 else
                 {
-                    errorController.PrintError("You didn't enter a number!"); // Vypsání chybového hlášení.
+                    PrintError("You didn't enter a number!"); // Vypsání chybového hlášení.
                 }
             }
 

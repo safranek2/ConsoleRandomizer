@@ -6,7 +6,7 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro generování a práci s kartami.
     /// </summary>
-    public class CardGenerator
+    public class CardGenerator : RandomizerBase
     {
         /// <summary>
         /// Konstruktor třídy CardGenerator.
@@ -15,9 +15,6 @@ namespace ConsoleRandomizer
         {
             // Prázdný konstruktor, žádná speciální inicializace není potřebná.
         }
-
-        private readonly ErrorController errorController = new ErrorController(); // Instance třídy pro správu chyb
-        private readonly Random random = new Random(); // Instance třídy pro generování náhodných čísel
 
         // Seznam hodnot (ranků) karet
         private readonly List<string> ranks = new List<string>()
@@ -35,18 +32,11 @@ namespace ConsoleRandomizer
         /// <summary>
         /// Metoda pro zobrazení nabídky generátoru karet a zpracování uživatelského vstupu.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             while (true)
             {
-                Console.WriteLine("Options:");
-                Console.WriteLine("1) Draw a card from the standard 52-card deck");
-                Console.WriteLine("2) Draw a card from a 54-card deck with 2 Jokers");
-                Console.WriteLine("3) Draw a card from a 56-card deck with 4 Jokers");
-                Console.WriteLine("4) Draw a card from a 36-card deck (6-A)");
-                Console.WriteLine("5) Draw a card from a 32-card deck (7-A)");
-                Console.WriteLine("6) Draw a card from a 24-card deck (9-A)");
-                Console.WriteLine("0) Exit");
+                Console.WriteLine(GetOptions());
 
                 Console.Write("Enter your choice: ");
                 string answer = Console.ReadLine();
@@ -56,7 +46,8 @@ namespace ConsoleRandomizer
                     if (intAnswer >= 1 && intAnswer <= 6)
                     {
                         List<string> deck = CreateDeck(intAnswer);
-                        DrawCard(deck);
+                        string randomCard = DrawCard(deck);
+                        Console.WriteLine($"Random card: {randomCard}");
                         break;
                     }
                     else if (intAnswer == 0)
@@ -65,15 +56,30 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError("You have entered an invalid number!");
+                        PrintError("You have entered an invalid number!");
                     }
                 }
                 else
                 {
-                    errorController.PrintError("You didn't enter a number!");
+                    PrintError("You didn't enter a number!");
                 }
             }
         }
+
+        public static string GetOptions()
+        {
+            string options = @"Options:
+                    1) Draw a card from the standard 52-card deck
+                    2) Draw a card from a 54-card deck with 2 Jokers
+                    3) Draw a card from a 56-card deck with 4 Jokers
+                    4) Draw a card from a 36-card deck (6-A)
+                    5) Draw a card from a 32-card deck (7-A)
+                    6) Draw a card from a 24-card deck (9-A)
+                    0) Exit";
+
+            return options;
+        }
+
 
         /// <summary>
         /// Metoda pro vytvoření balíčku karet na základě vstupu uživatele.
@@ -137,12 +143,13 @@ namespace ConsoleRandomizer
         /// Metoda pro vytáhnutí náhodné karty z daného balíčku.
         /// </summary>
         /// <param name="deck">Balíček karet, ze kterého se má táhnout karta.</param>
-        public void DrawCard(List<string> deck)
+        /// <returns>Náhodně vybraná karta z balíčku.</returns>
+        public string DrawCard(List<string> deck)
         {
             // Generování náhodného indexu pro výběr karty z balíčku
             int randomIndex = random.Next(deck.Count);
             string randomCard = deck[randomIndex];
-            Console.WriteLine($"Random card: {randomCard}");
+            return randomCard;
         }
     }
 }

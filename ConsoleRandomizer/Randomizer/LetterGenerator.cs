@@ -7,7 +7,7 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro generování náhodných písmen z abeced různých jazyků.
     /// </summary>
-    public class LetterGenerator
+    public class LetterGenerator : RandomizerBase
     {
         /// <summary>
         /// Konstruktor třídy LetterGenerator.
@@ -19,16 +19,13 @@ namespace ConsoleRandomizer
             alphabets = jsonLoader.LoadAlphabetsFromJSON();
         }
 
-        private Random random = new Random(); // Instance pro generování náhodných čísel
-        private ErrorController errorController = new ErrorController(); // Instance třídy pro správu chyb
-
         private Dictionary<string, string> alphabets; // Slovník jazykových abeced
 
         /// <summary>
         /// Zobrazí uživateli nabídku dostupných jazyků a umožní mu vybrat.
         /// Následně zobrazí náhodné písmeno z vybrané abecedy.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
 
             // Zkontroluje, zda seznam abeced není prázdný a obsahuje alespoň jeden prvek
@@ -52,7 +49,7 @@ namespace ConsoleRandomizer
                         if (intAnswer > 0 && intAnswer <= alphabets.Count)
                             break;
                         else
-                            errorController.PrintError($"You entered a number outside the range of 1-{alphabets.Count}!");
+                            PrintError($"You entered a number outside the range of 1-{alphabets.Count}!");
                     }
                     else if (answer.Equals("exit"))
                     {
@@ -60,7 +57,7 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError("You did not enter a valid number!");
+                        PrintError("You did not enter a valid number!");
                     }
                 }
 

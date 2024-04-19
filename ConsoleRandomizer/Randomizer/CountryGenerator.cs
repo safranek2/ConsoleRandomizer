@@ -6,7 +6,7 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro generování náhodných zemí na základě načtených dat ze souboru JSON.
     /// </summary>
-    public class CountryGenerator
+    public class CountryGenerator : RandomizerBase
     {
         /// <summary>
         /// Konstruktor třídy CountryGenerator, který inicializuje seznam zemí načtených ze souboru JSON.
@@ -17,14 +17,12 @@ namespace ConsoleRandomizer
             countries = jsonLoader.LoadCountriesFromJSON(); // Načte seznam zemí ze souboru JSON pomocí instance jsonLoader
         }
 
-        private Random random = new Random(); // Instance třídy pro generování náhodných čísel
-
         private List<string> countries; // Seznam zemí načtených ze souboru JSON
 
         /// <summary>
         /// Metoda pro zobrazení náhodně vybrané země.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             // Zkontroluje, zda seznam zemí není prázdný a obsahuje alespoň jeden prvek
             if (countries != null && countries.Count > 0)
@@ -41,7 +39,7 @@ namespace ConsoleRandomizer
         /// Metoda pro generování náhodně vybrané země z seznamu zemí.
         /// </summary>
         /// <returns>Název náhodně vybrané země.</returns>
-        private string GetRandomCountry()
+        public string GetRandomCountry()
         {
             // Generuje náhodný index v rozsahu délky seznamu zemí
             int randomIndex = random.Next(countries.Count);

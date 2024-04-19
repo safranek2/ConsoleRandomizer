@@ -8,8 +8,6 @@ namespace ConsoleRandomizer
     /// </summary>
     public class OptionsGenerator
     {
-        private Random random = new Random();
-
         /// <summary>
         /// Konstruktor třídy OptionsGenerator.
         /// </summary>
@@ -17,6 +15,9 @@ namespace ConsoleRandomizer
         {
             // Prázdný konstruktor, žádná speciální inicializace není potřebná.
         }
+
+        private readonly Random random = new Random(); // Instance třídy pro generování náhodných čísel.
+        private readonly ErrorController errorController = new ErrorController(); // Instance třídy pro zpracování chyb.
 
         /// <summary>
         /// Zobrazí náhodnou možnost z daného seznamu.

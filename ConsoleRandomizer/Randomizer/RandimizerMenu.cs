@@ -6,10 +6,10 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída reprezentující hlavní menu pro konzolový náhodný generátor.
     /// </summary>
-    public class RandomizerMenu
+    public class RandomizerMenu : RandomizerBase
     {
         /// <summary>
-        /// Konstruktor třídy RandomizerMenu. Inicializuje instance jednotlivých generátorů.
+        /// Konstruktor třídy RandomizerMenu. Inicializuje instance jednotlivých generátorů a třidy pro výpis chyby.
         /// </summary>
         public RandomizerMenu()
         {
@@ -47,37 +47,14 @@ namespace ConsoleRandomizer
         /// <summary>
         /// Zobrazí hlavní menu a zpracuje vstup od uživatele.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
-            // Nastaví kódování pro výstup konzole pro zvládnutí speciálních znaků
+            // Nastavení kódování pro výstup konzole pro zvládnutí speciálních znaků
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             while (true)
             {
-                Console.Clear();
-                // Zobrazení možností menu
-                Console.WriteLine("╔════════════════════════════════════╗");
-                Console.WriteLine("║         Console Randomizer         ║");
-                Console.WriteLine("╠════════════════════════════════════╣");
-                Console.WriteLine("║                Menu                ║");
-                Console.WriteLine("╠════════════════════════════════════╣");
-                Console.WriteLine("║ 1) Numbers                         ║");
-                Console.WriteLine("║ 2) Yes or No                       ║");
-                Console.WriteLine("║ 3) Coin Flip                       ║");
-                Console.WriteLine("║ 4) Rock, Paper, Scissors           ║");
-                Console.WriteLine("║ 5) Dice Rolls                      ║");
-                Console.WriteLine("║ 6) Colors                          ║");
-                Console.WriteLine("║ 7) Letters                         ║");
-                Console.WriteLine("║ 8) Teams                           ║");
-                Console.WriteLine("║ 9) List                            ║");
-                Console.WriteLine("║ 10) Card                           ║");
-                Console.WriteLine("║ 11) Country                        ║");
-                Console.WriteLine("║ 12) Date                           ║");
-                Console.WriteLine("║ 13) Time                           ║");
-                Console.WriteLine("║ 14) Password                       ║");
-                Console.WriteLine("║ 15) Magic 8 Ball                   ║");
-                Console.WriteLine("║ 0) Exit                            ║");
-                Console.WriteLine("╚════════════════════════════════════╝");
+                Console.WriteLine(GetMainMenu());
                 Console.Write("Enter your choice: ");
                 string answer = Console.ReadLine();
 
@@ -91,86 +68,144 @@ namespace ConsoleRandomizer
                     switch (choice)
                     {
                         case 1:
-                            DisplayMenu("║               Numbers              ║");
+                            Console.WriteLine(GetRandomizerMenu("║              Numbers               ║"));
                             numberGenerator.Display();
                             break;
                         case 2:
-                            DisplayMenu("║              Yes or No             ║");
+                            Console.WriteLine(GetRandomizerMenu("║             Yes or No              ║"));
                             optionsGenerator.Display(new List<string> { "Yes", "No" });
                             break;
                         case 3:
-                            DisplayMenu("║              Coin Flip             ║");
+                            Console.WriteLine(GetRandomizerMenu("║             Coin Flip              ║"));
                             optionsGenerator.Display(new List<string> { "Heads", "Tails" });
                             break;
                         case 4:
 
-                            DisplayMenu("║       Rock, Paper, Scissors        ║");
+                            Console.WriteLine(GetRandomizerMenu("║       Rock, Paper, Scissors        ║"));
                             optionsGenerator.Display(new List<string> { "Rock", "Paper", "Scissors" });
                             break;
                         case 5:
-                            DisplayMenu("║              Dice Roll             ║");
+                            Console.WriteLine(GetRandomizerMenu("║              Dice Roll             ║"));
                             diceRoll.Display();
                             break;
                         case 6:
-                            DisplayMenu("║              Dice Roll             ║");
-                            DisplayMenu("║                Color               ║");
+                            Console.WriteLine(GetRandomizerMenu("║               Colors               ║"));
                             colorGenerator.Display();
                             break;
                         case 7:
-                            DisplayMenu("║               Letter               ║");
+                            Console.WriteLine(GetRandomizerMenu("║               Letters              ║"));
                             letterGenerator.Display();
                             break;
                         case 8:
-                            DisplayMenu("║                Teams               ║");
+                            Console.WriteLine(GetRandomizerMenu("║                Teams               ║"));
                             teamsGenerator.Display();
                             break;
                         case 9:
-                            DisplayMenu("║                 List               ║");
+                            Console.WriteLine(GetRandomizerMenu("║                List                ║"));
                             listGenerator.Display();
                             break;
                         case 10:
-                            DisplayMenu("║                 Card               ║");
+                            Console.WriteLine(GetRandomizerMenu("║                Card                ║"));
                             cardGenerator.Display();
                             break;
                         case 11:
-                            DisplayMenu("║               Country              ║");
+                            Console.WriteLine(GetRandomizerMenu("║              Country               ║"));
                             countryGenerator.Display();
                             break;
                         case 12:
-                            DisplayMenu("║                 Date               ║");
+                            Console.WriteLine(GetRandomizerMenu("║                Date                ║"));
                             dateGenerator.Display();
                             break;
                         case 13:
-                            DisplayMenu("║                 Time               ║");
+                            Console.WriteLine(GetRandomizerMenu("║                Time                ║"));
                             timeGenerator.Display();
                             break;
                         case 14:
-                            DisplayMenu("║              Password              ║");
+                            Console.WriteLine(GetRandomizerMenu("║              Password              ║"));
                             passwordGenerator.Display();
                             break;
                         case 15:
-                            DisplayMenu("║            Magic 8 Ball            ║");
+                            Console.WriteLine(GetRandomizerMenu("║            Magic 8 Ball            ║"));
                             magic8Ball.Display();
                             break;
+                        default:
+                            PrintError("You did not enter the number 1-15");
+                            break;
                     }
-                    Console.WriteLine("Press any key to continue . . .");
-                    Console.ReadLine();
                 }
+                else
+                {
+                    PrintError("You did not enter the number 1-15!");
+                }
+                Console.WriteLine("Press any key to continue . . .");
+                Console.ReadLine();
             }
         }
 
         /// <summary>
-        /// Metoda pro zobrazení menu s titulkem.
+        /// Metoda pro sestavení a vrácení obsahu menu.
+        /// </summary>
+        /// <param name="clearConsole">Určuje, zda se má konzole vyčistit před zobrazením menu.</param>
+        /// <returns>Textový obsah menu.</returns>
+        public string GetMainMenu(bool clearConsole = true)
+        {
+            if (clearConsole)
+            {
+                Console.Clear();
+            }
+
+            // Sestavení obsahu menu do řetězce
+            string menu =
+                "╔════════════════════════════════════╗\n" +
+                "║         Console Randomizer         ║\n" +
+                "╠════════════════════════════════════╣\n" +
+                "║                Menu                ║\n" +
+                "╠════════════════════════════════════╣\n" +
+                "║ 1) Numbers                         ║\n" +
+                "║ 2) Yes or No                       ║\n" +
+                "║ 3) Coin Flip                       ║\n" +
+                "║ 4) Rock, Paper, Scissors           ║\n" +
+                "║ 5) Dice Rolls                      ║\n" +
+                "║ 6) Colors                          ║\n" +
+                "║ 7) Letters                         ║\n" +
+                "║ 8) Teams                           ║\n" +
+                "║ 9) List                            ║\n" +
+                "║ 10) Card                           ║\n" +
+                "║ 11) Country                        ║\n" +
+                "║ 12) Date                           ║\n" +
+                "║ 13) Time                           ║\n" +
+                "║ 14) Password                       ║\n" +
+                "║ 15) Magic 8 Ball                   ║\n" +
+                "║ 0) Exit                            ║\n" +
+                "╚════════════════════════════════════╝";
+
+            // Vrácení sestaveného menu
+            return menu;
+        }
+
+
+        /// <summary>
+        /// Metoda pro sestavení a vrácení textového obsahu menu s titulkem.
         /// </summary>
         /// <param name="title">Titulek menu.</param>
-        private void DisplayMenu(string title)
+        /// <param name="clearConsole">Určuje, zda se má konzole vyčistit před zobrazením menu.</param>
+        /// <returns>Textový obsah menu.</returns>
+        public string GetRandomizerMenu(string title, bool clearConsole = true)
         {
-            Console.Clear();
-            Console.WriteLine("╔════════════════════════════════════╗");
-            Console.WriteLine("║         Console Randomizer         ║");
-            Console.WriteLine("╠════════════════════════════════════╣");
-            Console.WriteLine(title);
-            Console.WriteLine("╚════════════════════════════════════╝");
+            if (clearConsole)
+            {
+                Console.Clear();
+            }
+
+            // Sestavení obsahu menu do řetězce
+            string menu = $"╔════════════════════════════════════╗{Environment.NewLine}" +
+                          $"║         Console Randomizer         ║{Environment.NewLine}" +
+                          $"╠════════════════════════════════════╣{Environment.NewLine}" +
+                          $"{title}{Environment.NewLine}" +
+                          $"╚════════════════════════════════════╝";
+
+            // Vrácení sestaveného menu
+            return menu;
         }
     }
 }

@@ -9,15 +9,8 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro generování hesel s použitím nastavení uloženého v JSON souboru.
     /// </summary>
-    public class PasswordGenerator
+    public class PasswordGenerator : RandomizerBase
     {
-        private readonly Random random = new Random(); // Instance třídy pro generování náhodných čísel.
-        private readonly ErrorController errorController = new ErrorController(); // Instance třídy pro zpracování chyb.
-        private readonly Dictionary<string, string> chars; // Slovník pro uchování typů znaků a jejich hodnot.
-
-        private readonly int minLength; // Minimální délka hesla.
-        private readonly int maxLength; // Maximální délka hesla.
-
         /// <summary>
         /// Konstruktor třídy PasswordGenerator. Načte nastavení hesla z JSON souboru.
         /// </summary>
@@ -34,10 +27,15 @@ namespace ConsoleRandomizer
             chars = passwordSettings.Chars.ToDictionary(item => item.Name, item => item.Characters);
         }
 
+        private readonly Dictionary<string, string> chars; // Slovník pro uchování typů znaků a jejich hodnot.
+
+        private readonly int minLength; // Minimální délka hesla.
+        private readonly int maxLength; // Maximální délka hesla.
+
         /// <summary>
         /// Zobrazí uživatelské rozhraní pro generování hesla.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             // Zkontroluje, zda seznam znaků není prázdný a obsahuje alespoň jeden prvek
             if (chars != null)
@@ -57,13 +55,13 @@ namespace ConsoleRandomizer
                         if (length >= minLength && length <= maxLength)
                             break;
                         else
-                            errorController.PrintError($"You entered a number outside the range of {minLength}-{maxLength} !");
+                            PrintError($"You entered a number outside the range of {minLength}-{maxLength} !");
                     }
                     // Pokud uživatel zadal "exit", vrať se zpět do menu.
                     else if (answer.Equals("exit"))
                         return;
                     else
-                        errorController.PrintError("You didn't write a number!");
+                        PrintError("You didn't write a number!");
                 }
 
                 // Vytvoření kopie slovníku znaků pro heslo.
@@ -105,16 +103,16 @@ namespace ConsoleRandomizer
                             if (passwordChars.Count > 0)
                                 break;
                             else
-                                errorController.PrintError("You must enable at least one option!");
+                                PrintError("You must enable at least one option!");
                         }
                         else if (intAnswer == 0)
                             return;
                         else
-                            errorController.PrintError("You didn't enter a valid number!");
+                            PrintError("You didn't enter a valid number!");
                     }
                     else
                     {
-                        errorController.PrintError("You didn't enter a number!");
+                        PrintError("You didn't enter a number!");
                     }
                 }
 

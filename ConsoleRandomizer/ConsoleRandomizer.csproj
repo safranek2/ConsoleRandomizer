@@ -154,6 +154,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Randomizer\NumberGenerator.cs" />
+    <Compile Include="Randomizer\RandomizerBase.cs" />
     <Compile Include="Randomizer\TeamsGenerator.cs" />
     <Compile Include="Randomizer\TimeGenerator.cs" />
     <Compile Include="vendor\ClosestConsoleColor.cs" />

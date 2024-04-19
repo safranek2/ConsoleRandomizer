@@ -5,12 +5,8 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída TimeGenerator umožňuje generovat náhodný časový údaj v zadaném rozmezí.
     /// </summary>
-    public class TimeGenerator
+    public class TimeGenerator : RandomizerBase
     {
-        private Random random = new Random(); // Instance generátoru náhodných čísel.
-
-        private ErrorController errorController = new ErrorController(); // Instance třídy pro zpracování chyb.
-
         /// <summary>
         /// Konstruktor třídy TimeGenerator.
         /// </summary>
@@ -22,7 +18,7 @@ namespace ConsoleRandomizer
         /// <summary>
         /// Zobrazí menu pro zadání prvního a posledního časového údaje a zpracovává vstup uživatele.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             DateTime firstTime; // Proměnná pro první časový údaj.
             DateTime lastTime; // Proměnná pro poslední časový údaj.
@@ -44,7 +40,7 @@ namespace ConsoleRandomizer
                 }
                 else
                 {
-                    errorController.PrintError("You have not entered a time or entered an invalid time!");
+                    PrintError("You have not entered a time or entered an invalid time!");
                 }
             }
 
@@ -60,7 +56,7 @@ namespace ConsoleRandomizer
                     // Kontroluje, zda je poslední čas pozdější než první čas.
                     if (firstTime >= lastTime)
                     {
-                        errorController.PrintError("The last time must be later than the first time!");
+                        PrintError("The last time must be later than the first time!");
                     }
                     else
                     {
@@ -73,7 +69,7 @@ namespace ConsoleRandomizer
                 }
                 else
                 {
-                    errorController.PrintError("You have not entered a time or entered an invalid time!");
+                    PrintError("You have not entered a time or entered an invalid time!");
                 }
             }
 

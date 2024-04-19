@@ -5,7 +5,7 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro generování náhodných dat mezi dvěma zadanými daty.
     /// </summary>
-    public class DateGenerator
+    public class DateGenerator : RandomizerBase
     {
         /// <summary>
         /// Konstruktor třídy DateGenerator.
@@ -15,13 +15,10 @@ namespace ConsoleRandomizer
             // Prázdný konstruktor, žádná speciální inicializace není potřebná.
         }
 
-        private Random random = new Random(); // Instance třídy pro generování náhodných čísel
-        private ErrorController errorController = new ErrorController(); // Instance třídy pro správu chyb
-
         /// <summary>
         /// Zobrazí menu generátoru dat a zpracuje uživatelský vstup.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             DateTime firstDate;
             DateTime lastDate;
@@ -44,7 +41,7 @@ namespace ConsoleRandomizer
                 }
                 else
                 {
-                    errorController.PrintError("You have not entered a valid date!");
+                    PrintError("You have not entered a valid date!");
                 }
             }
 
@@ -65,7 +62,7 @@ namespace ConsoleRandomizer
                     // Kontroluje, zda je poslední datum pozdější než první datum
                     if (firstDate >= lastDate)
                     {
-                        errorController.PrintError("The last date must be later than the first date!");
+                        PrintError("The last date must be later than the first date!");
                     }
                     else
                     {
@@ -74,7 +71,7 @@ namespace ConsoleRandomizer
                 }
                 else
                 {
-                    errorController.PrintError("You have not entered a valid date!");
+                    PrintError("You have not entered a valid date!");
                 }
             }
 
@@ -87,7 +84,7 @@ namespace ConsoleRandomizer
         /// </summary>
         /// <param name="firstDate">První datum v rozsahu.</param>
         /// <param name="lastDate">Poslední datum v rozsahu.</param>
-        public void GenerateDate(DateTime firstDate, DateTime lastDate)
+        private void GenerateDate(DateTime firstDate, DateTime lastDate)
         {
             // Vypočítá počet dnů mezi dvěma daty
             TimeSpan timeSpan = lastDate - firstDate;

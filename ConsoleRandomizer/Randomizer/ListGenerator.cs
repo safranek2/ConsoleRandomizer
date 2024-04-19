@@ -6,7 +6,7 @@ namespace ConsoleRandomizer
     /// <summary>
     /// Třída pro generování a manipulaci se seznamem jmen.
     /// </summary>
-    public class ListGenerator
+    public class ListGenerator : RandomizerBase
     {
         /// <summary>
         /// Konstruktor třídy ListGenerator.
@@ -16,13 +16,10 @@ namespace ConsoleRandomizer
             // Prázdný konstruktor, žádná speciální inicializace není potřebná.
         }
 
-        private Random random = new Random(); // Instance pro generování náhodných čísel
-        private ErrorController errorController = new ErrorController(); // Instance třídy pro správu chyb
-
         /// <summary>
         /// Zobrazí uživateli nabídku možností pro manipulaci se seznamem jmen a zpracovává jeho vstupy.
         /// </summary>
-        public void Display()
+        public override void Display()
         {
             List<string> list = new List<string>(); // Inicializuje nový prázdný seznam jmen
             bool enabled = false; // Indikuje, zda je seznam povolen nebo ne
@@ -69,12 +66,12 @@ namespace ConsoleRandomizer
                     }
                     else
                     {
-                        errorController.PrintError("You entered an incorrect number!"); // Zobrazí chybovou hlášku pro nesprávné vstupy
+                        PrintError("You entered an incorrect number!"); // Zobrazí chybovou hlášku pro nesprávné vstupy
                     }
                 }
                 else
                 {
-                    errorController.PrintError("You did not enter a number!"); // Zobrazí chybovou hlášku pro nečíselné vstupy
+                    PrintError("You did not enter a number!"); // Zobrazí chybovou hlášku pro nečíselné vstupy
                 }
             }
         }
@@ -83,7 +80,7 @@ namespace ConsoleRandomizer
         /// Přidá nové jméno do seznamu.
         /// </summary>
         /// <param name="list">Seznam jmen.</param>
-        public void AddName(List<string> list)
+        private void AddName(List<string> list)
         {
             Console.Write("Name: ");
             string name = Console.ReadLine();
@@ -94,7 +91,7 @@ namespace ConsoleRandomizer
         /// Zamíchá pořadí jmen v seznamu.
         /// </summary>
         /// <param name="list">Seznam jmen.</param>
-        public void ShuffleList(List<string> list)
+        private void ShuffleList(List<string> list)
         {
             List<string> newList = new List<string>(); // Inicializuje nový prázdný seznam pro zamíchání
 
@@ -112,7 +109,7 @@ namespace ConsoleRandomizer
         /// Zobrazí obsah seznamu na konzoli.
         /// </summary>
         /// <param name="list">Seznam jmen.</param>
-        public void WriteList(List<string> list)
+        private void WriteList(List<string> list)
         {
             for (int i = 0; i < list.Count; i++)
             {
