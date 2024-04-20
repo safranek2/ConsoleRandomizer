@@ -31,7 +31,7 @@ Pro každý generátor jsou k dispozici soubory JSON s nastavením, které mohou
 
 ### Pro Uživatele:
 1. Stáhněte a rozbalte archiv s kompilovanou aplikací.
-2. Spusťte aplikaci pomocí spustitelného souboru `ConsoleRandomizer.exe`.
+2. Spusťte aplikaci pomocí spustitelného souboru `ConsoleRandomizer.exe`, který se nachází ve složce `ConsoleRandomizer\bin\Release`.
 3. Po spuštění zobrazí aplikace hlavní menu, kde si můžete vybrat požadovanou funkci.
 
 ## Další Informace
