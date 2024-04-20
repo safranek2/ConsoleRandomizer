@@ -49,3 +49,7 @@ C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Release\R
 C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Release\Resources\NumbersSettings.json
 C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Release\Resources\PasswordSettings.json
 C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Release\Resources\TeamsSettings.json
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Release\ConsoleRandomizer.exe.manifest
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Release\ConsoleRandomizer.application
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Release\ConsoleRandomizer.exe.manifest
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Release\ConsoleRandomizer.application
