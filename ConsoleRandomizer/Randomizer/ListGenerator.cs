@@ -17,16 +17,16 @@ namespace ConsoleRandomizer
         }
 
         /// <summary>
-        /// Zobrazí uživateli nabídku možností pro manipulaci se seznamem jmen a zpracovává jeho vstupy.
+        /// Zobrazuje uživatelské rozhraní pro interakci s uživatelem a provádí operace v souladu s volbami.
         /// </summary>
         public override void Display()
         {
-            List<string> list = new List<string>(); // Inicializuje nový prázdný seznam jmen
-            bool enabled = false; // Indikuje, zda je seznam povolen nebo ne
+            List<string> list = new List<string>(); // Seznam pro ukládání jmen
+            bool enabled = false; // Příznak, zda jsou povoleny pokročilé možnosti
 
             while (true)
             {
-                // Zobrazí menu na základě toho, zda je seznam povolen nebo ne
+                // Výpis možností v závislosti na povolených funkcích
                 if (!enabled)
                 {
                     Console.WriteLine("1) Add name\n0) Exit");
@@ -37,92 +37,123 @@ namespace ConsoleRandomizer
                 }
 
                 Console.Write("Enter your choice: ");
+
                 string answer = Console.ReadLine();
 
+                // Zpracování uživatelovy volby
                 if (Int32.TryParse(answer, out int intAnswer))
                 {
                     if (intAnswer == 1)
                     {
-                        AddName(list); // Přidá jméno do seznamu
+                        // Volba pro přidání jména do seznamu
+                        Console.Write("Name: ");
+
+                        string name = Console.ReadLine();
+
+                        AddName(list, name);
+
+                        // Aktivace pokročilých funkcí po přidání druhého jména
                         if (!enabled && list.Count > 1)
                         {
-                            enabled = true; // Pokud není seznam povolen a obsahuje více než jedno jméno, povolí se
+                            enabled = true;
                         }
                     }
                     else if (intAnswer == 2 && enabled)
                     {
-                        ShuffleList(list); // Zamíchá seznam
-                        break; // Ukončí cyklus a zobrazí výsledky
+                        // Volba pro zamíchání seznamu jmen
+                        List<string> results = ShuffleList(list);
+
+                        string resultsAsString = ListAsString(results);
+
+                        Console.WriteLine(resultsAsString);
+
+                        break;
                     }
                     else if (intAnswer == 3 && enabled)
                     {
-                        string name = list[random.Next(0, list.Count)]; // Vybere náhodné jméno ze seznamu
-                        Console.WriteLine($"Random name: {name}"); // Zobrazí vybrané jméno
-                        break; // Ukončí cyklus a zobrazí výsledky
+                        // Volba pro výběr náhodného jména ze seznamu
+                        string name = list[random.Next(0, list.Count)];
+
+                        Console.WriteLine($"Random name: {name}");
+
+                        break;
                     }
                     else if (intAnswer == 0)
                     {
-                        return; // Ukončí cyklus
+                        // Vrácení do hlavního menu
+                        return;
                     }
                     else
                     {
-                        PrintError("You entered an incorrect number!"); // Zobrazí chybovou hlášku pro nesprávné vstupy
+                        // Pokud uživatel zadal neplatné číslo
+                        PrintError("You entered an incorrect number!");
                     }
                 }
                 else
                 {
-                    PrintError("You did not enter a number!"); // Zobrazí chybovou hlášku pro nečíselné vstupy
+                    // Pokud uživatel nezadal číslo
+                    PrintError("You did not enter a number!");
                 }
             }
         }
 
         /// <summary>
-        /// Přidá nové jméno do seznamu.
+        /// Přidá zadané jméno do zadaného seznamu jmen.
         /// </summary>
-        /// <param name="list">Seznam jmen.</param>
-        private void AddName(List<string> list)
+        /// <param name="list">Seznam, do kterého má být přidáno jméno.</param>
+        /// <param name="name">Jméno, které má být přidáno do seznamu.</param>
+        public void AddName(List<string> list, string name)
         {
-            Console.Write("Name: ");
-            string name = Console.ReadLine();
             list.Add(name);
         }
 
+
         /// <summary>
-        /// Zamíchá pořadí jmen v seznamu.
+        /// Zamíchá položky v zadaném seznamu náhodným způsobem a vrátí nový seznam se zamíchanými položkami.
         /// </summary>
-        /// <param name="list">Seznam jmen.</param>
-        private void ShuffleList(List<string> list)
+        /// <param name="list">Seznam položek, které mají být zamíchány.</param>
+        /// <returns>Nový seznam s položkami ze vstupního seznamu, ale v náhodném pořadí.</returns>
+        public List<string> ShuffleList(List<string> list)
         {
-            List<string> newList = new List<string>(); // Inicializuje nový prázdný seznam pro zamíchání
+            List<string> newList = new List<string>();
 
             while (list.Count > 0)
             {
-                int index = random.Next(0, list.Count); // Vybere náhodný index ze seznamu
-                newList.Add(list[index]); // Přidá jméno na náhodném indexu do nového seznamu
-                list.RemoveAt(index); // Odebere jméno ze seznamu
+                // Vybere náhodný index položky ze seznamu
+                int index = random.Next(0, list.Count);
+
+                // Přidá vybranou položku na konec nového seznamu
+                newList.Add(list[index]);
+
+                // Odstraní vybranou položku ze vstupního seznamu
+                list.RemoveAt(index);
             }
 
-            WriteList(newList); // Zobrazí nově zamíchaný seznam
+            return newList;
         }
 
         /// <summary>
-        /// Zobrazí obsah seznamu na konzoli.
+        /// Vytváří textový řetězec obsahující všechny položky ze zadaného seznamu.
         /// </summary>
-        /// <param name="list">Seznam jmen.</param>
-        private void WriteList(List<string> list)
+        /// <param name="list">Seznam položek, ze kterého má být vytvořen textový řetězec.</param>
+        /// <returns>Textový řetězec obsahující všechny položky ze zadaného seznamu oddělené čárkami.</returns>
+        public string ListAsString(List<string> list)
         {
+            string result = "";
             for (int i = 0; i < list.Count; i++)
             {
+                // První položka v seznamu
                 if (i == 0)
                 {
-                    Console.Write($"Results: {list[i]}"); // Pokud je to první prvek, vypíše bez čárky
+                    result = $"Results: {list[i]}";
                 }
+                // Ostatní položky v seznamu
                 else
                 {
-                    Console.Write($", {list[i]}"); // Vypíše prvek s čárkou
+                    result += $", {list[i]}";
                 }
             }
-            Console.WriteLine();
+            return result;
         }
     }
 }

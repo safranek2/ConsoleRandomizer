@@ -16,85 +16,90 @@ namespace ConsoleRandomizer
         }
 
         /// <summary>
-        /// Zobrazí menu generátoru dat a zpracuje uživatelský vstup.
+        /// Zobrazuje uživatelské rozhraní pro generování náhodného data mezi zadanými daty a zpracovává uživatelský vstup.
         /// </summary>
         public override void Display()
         {
-            DateTime firstDate;
-            DateTime lastDate;
+            DateTime firstDate; // Počáteční datum
+            DateTime lastDate; // Koncové datum
 
-            // Zobrazí uživateli výzvu k zadání prvního data
             while (true)
             {
+                // Vyzve uživatele k zadání počátečního data
                 Console.Write("Enter the first date in d.m.yyyy format or 'exit' to return to the menu: ");
                 string answer = Console.ReadLine();
 
+                // Pokud uživatel zvolil ukončení, metoda se vrátí zpět do menu
                 if (answer.Equals("exit"))
                 {
                     return;
                 }
 
-                // Pokusí se analyzovat uživatelský vstup jako DateTime
+                // Pokusí se načíst počáteční datum z uživatelského vstupu
                 if (DateTime.TryParse(answer, out firstDate))
                 {
-                    break;
+                    break; // Pokud je datum platné, ukončí smyčku
                 }
                 else
                 {
-                    PrintError("You have not entered a valid date!");
+                    PrintError("You have not entered a valid date!"); // Pokud je datum neplatné, vypíše chybovou zprávu
                 }
             }
 
-            // Zobrazí uživateli výzvu k zadání posledního data
             while (true)
             {
+                // Vyzve uživatele k zadání koncového data
                 Console.Write("Enter the last date in d.m.yyyy format or 'exit' to return to the menu: ");
                 string answer = Console.ReadLine();
 
+                // Pokud uživatel zvolil ukončení, metoda se vrátí zpět do menu
                 if (answer.Equals("exit"))
                 {
                     return;
                 }
 
-                // Pokusí se analyzovat uživatelský vstup jako DateTime
+                // Pokusí se načíst koncové datum z uživatelského vstupu
                 if (DateTime.TryParse(answer, out lastDate))
                 {
-                    // Kontroluje, zda je poslední datum pozdější než první datum
+                    // Kontroluje, zda je koncové datum pozdější než počáteční datum
                     if (firstDate >= lastDate)
                     {
                         PrintError("The last date must be later than the first date!");
                     }
                     else
                     {
-                        break;
+                        break; // Pokud je datum platné a je pozdější než počáteční datum, ukončí smyčku
                     }
                 }
                 else
                 {
-                    PrintError("You have not entered a valid date!");
+                    PrintError("You have not entered a valid date!"); // Pokud je datum neplatné, vypíše chybovou zprávu
                 }
             }
 
-            // Generuje náhodné datum mezi zadanými daty
-            GenerateDate(firstDate, lastDate);
+            // Vygeneruje náhodné datum mezi zadanými daty
+            DateTime randomDate = GenerateDate(firstDate, lastDate);
+
+            // Vypíše náhodně vygenerované datum
+            Console.WriteLine($"Random date: {randomDate.ToString("d.M.yyyy")}");
         }
 
         /// <summary>
-        /// Generuje náhodné datum mezi zadanými daty a vypíše je.
+        /// Generuje náhodné datum mezi zadanými daty (včetně).
         /// </summary>
-        /// <param name="firstDate">První datum v rozsahu.</param>
-        /// <param name="lastDate">Poslední datum v rozsahu.</param>
-        private void GenerateDate(DateTime firstDate, DateTime lastDate)
+        /// <param name="firstDate">Počáteční datum.</param>
+        /// <param name="lastDate">Koncové datum.</param>
+        /// <returns>Náhodné datum v rozmezí mezi počátečním a koncovým datem.</returns>
+        public DateTime GenerateDate(DateTime firstDate, DateTime lastDate)
         {
-            // Vypočítá počet dnů mezi dvěma daty
+            // Vypočítá rozdíl mezi počátečním a koncovým datem
             TimeSpan timeSpan = lastDate - firstDate;
             int daysBetween = (int)timeSpan.TotalDays;
 
-            // Vygeneruje náhodný počet dnů mezi dvěma daty a přidá ho k prvnímu datu
+            // Vygeneruje náhodný počet dnů mezi oběma daty a přičte tento počet dnů k počátečnímu datu
             DateTime randomDate = firstDate.AddDays(random.Next(daysBetween + 1));
 
-            // Vypíše náhodně vygenerované datum ve formátu "d.M.yyyy"
-            Console.WriteLine($"Random date: {randomDate.ToString("d.M.yyyy")}");
+            return randomDate; // Vrátí vygenerované náhodné datum
         }
     }
 }

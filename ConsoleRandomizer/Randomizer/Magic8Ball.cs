@@ -20,25 +20,26 @@ namespace ConsoleRandomizer
         private List<string> answers; // Seznam možných odpovědí Magic 8 Ball
 
         /// <summary>
-        /// Zobrazí náhodnou odpověď z listu možných odpovědí Magic 8 Ball.
+        /// Zobrazuje náhodnou odpověď od kouzelné koule.
         /// </summary>
         public override void Display()
         {
             if (answers != null)
             {
-                string randomAnswer = GenerateAnswer();
-                Console.WriteLine($"The Magic 8 Ball says: {randomAnswer}");
+                string randomAnswer = GenerateAnswer(); // Vygeneruje náhodnou odpověď od kouzelné koule
+                Console.WriteLine($"The Magic 8 Ball says: {randomAnswer}"); // Vypíše náhodnou odpověď od kouzelné koule
             }
         }
 
         /// <summary>
-        /// Generuje náhodnou odpověď z listu možných odpovědí Magic 8 Ball.
+        /// Generuje náhodnou odpověď ze seznamu možných odpovědí.
         /// </summary>
-        /// <returns>Náhodně vybraná odpověď z listu možných odpovědí.</returns>
-        private string GenerateAnswer()
+        /// <returns>Náhodně vybraná odpověď ze seznamu.</returns>
+        public string GenerateAnswer()
         {
-            int index = random.Next(0, answers.Count);
-            return answers[index];
+            int index = random.Next(0, answers.Count); // Náhodně vybere index odpovědi ze seznamu
+            return answers[index]; // Vrátí náhodně vybranou odpověď
         }
+
     }
 }

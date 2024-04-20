@@ -1,4 +1,6 @@
-﻿namespace ConsoleRandomizerMSTest
+﻿using ConsoleRandomizer;
+
+namespace ConsoleRandomizerMSTest
 {
     /// <summary>
     /// Třída obsahující testy pro třídu CardGenerator.
@@ -6,18 +8,25 @@
     [TestClass]
     public class CardGeneratorTests
     {
+        CardGenerator cardGenerator; // Instance třídy CardGenerator pro testování
+
+        [TestInitialize]
+        public void SetUp()
+        {
+            cardGenerator = new CardGenerator(); // Inicializace instance třídy CardGenerator před každým testem
+        }
+
         /// <summary>
         /// Testuje vytvoření standardního balíčku s 52 kartami.
         /// </summary>
         [TestMethod]
         public void TestCreateDeck_Standard52Cards()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             int choice = 1;
 
-            List<string> deck = cardGenerator.CreateDeck(choice);
+            List<string> deck = cardGenerator.CreateDeck(choice); // Vytvoření balíčku podle zvolené volby
 
-            Assert.AreEqual(52, deck.Count);
+            Assert.AreEqual(52, deck.Count); // Ověření, že balíček obsahuje 52 karet
         }
 
         /// <summary>
@@ -26,12 +35,11 @@
         [TestMethod]
         public void TestCreateDeck_54CardsWith2Jokers()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             int choice = 2;
 
-            List<string> deck = cardGenerator.CreateDeck(choice);
+            List<string> deck = cardGenerator.CreateDeck(choice); // Vytvoření balíčku podle zvolené volby
 
-            Assert.AreEqual(54, deck.Count);
+            Assert.AreEqual(54, deck.Count); // Ověření, že balíček obsahuje 54 karet
         }
 
         /// <summary>
@@ -40,12 +48,11 @@
         [TestMethod]
         public void TestCreateDeck_56CardsWith4Jokers()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             int choice = 3;
 
-            List<string> deck = cardGenerator.CreateDeck(choice);
+            List<string> deck = cardGenerator.CreateDeck(choice); // Vytvoření balíčku podle zvolené volby
 
-            Assert.AreEqual(56, deck.Count);
+            Assert.AreEqual(56, deck.Count); // Ověření, že balíček obsahuje 56 karet
         }
 
         /// <summary>
@@ -54,12 +61,11 @@
         [TestMethod]
         public void TestCreateDeck_36Cards()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             int choice = 4;
 
-            List<string> deck = cardGenerator.CreateDeck(choice);
+            List<string> deck = cardGenerator.CreateDeck(choice); // Vytvoření balíčku podle zvolené volby
 
-            Assert.AreEqual(36, deck.Count);
+            Assert.AreEqual(36, deck.Count); // Ověření, že balíček obsahuje 36 karet
         }
 
         /// <summary>
@@ -68,12 +74,11 @@
         [TestMethod]
         public void TestCreateDeck_32Cards()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             int choice = 5;
 
-            List<string> deck = cardGenerator.CreateDeck(choice);
+            List<string> deck = cardGenerator.CreateDeck(choice); // Vytvoření balíčku podle zvolené volby
 
-            Assert.AreEqual(32, deck.Count);
+            Assert.AreEqual(32, deck.Count); // Ověření, že balíček obsahuje 32 karet
         }
 
         /// <summary>
@@ -82,12 +87,11 @@
         [TestMethod]
         public void TestCreateDeck_24Cards()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             int choice = 6;
 
-            List<string> deck = cardGenerator.CreateDeck(choice);
+            List<string> deck = cardGenerator.CreateDeck(choice); // Vytvoření balíčku podle zvolené volby
 
-            Assert.AreEqual(24, deck.Count);
+            Assert.AreEqual(24, deck.Count); // Ověření, že balíček obsahuje 24 karet
         }
 
         /// <summary>
@@ -96,12 +100,11 @@
         [TestMethod]
         public void TestDrawCard_NotEmptyDeck()
         {
-            CardGenerator cardGenerator = new CardGenerator();
             List<string> deck = new List<string>() { "Ace of Spades", "King of Hearts", "Queen of Diamonds" };
 
-            string drawnCard = cardGenerator.DrawCard(deck);
+            string drawnCard = cardGenerator.DrawCard(deck); // Vytažení karty z neprázdného balíčku
 
-            Assert.IsTrue(deck.Contains(drawnCard));
+            Assert.IsTrue(deck.Contains(drawnCard)); // Ověření, že vytažená karta je skutečně v balíčku
         }
 
         /// <summary>
@@ -110,9 +113,9 @@
         [TestMethod]
         public void TestDrawCard_EmptyDeck()
         {
-            CardGenerator cardGenerator = new CardGenerator();
-            List<string> deck = new List<string>();
+            List<string> deck = new List<string>(); // Prázdný balíček
 
+            // Ověření, že vytažení karty z prázdného balíčku vyvolá výjimku ArgumentOutOfRangeException
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => cardGenerator.DrawCard(deck));
         }
     }

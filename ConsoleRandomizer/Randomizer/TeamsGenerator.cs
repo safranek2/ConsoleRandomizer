@@ -25,16 +25,17 @@ namespace ConsoleRandomizer
         private int maxTeams; // Maximální počet týmů.
 
         /// <summary>
-        /// Zobrazí menu pro generování týmů a zpracovává uživatelské vstupy.
+        /// Zobrazuje uživatelské rozhraní pro vytvoření týmů na základě zadaných jmen a zpracovává uživatelský vstup.
         /// </summary>
         public override void Display()
         {
-            List<string> names = new List<string>(); // Seznam jmen pro týmy.
-            bool enabled = false; // Příznak, zda je možné vytvářet týmy.
+            List<string> names = new List<string>(); // Inicializace prázdného seznamu pro ukládání jmen hráčů
+            bool enabled = false; // Nastavení počáteční hodnoty proměnné označující povolení možnosti vytvoření týmů
 
+            // Hlavní smyčka pro zobrazování menu a zpracování vstupu
             while (true)
             {
-                // Zobrazení menu pro přidání jmen a vytvoření týmů.
+                // Zobrazení hlavního menu s možností přidání jména a vytvoření týmů (pokud je povoleno)
                 if (!enabled)
                 {
                     Console.WriteLine("1) Add name\n0) Exit");
@@ -47,36 +48,46 @@ namespace ConsoleRandomizer
                 Console.Write("Enter your choice: ");
                 string answer = Console.ReadLine();
 
+                // Zpracování vstupu uživatele
                 if (Int32.TryParse(answer, out int intAnswer))
                 {
-                    // Zpracování uživatelské volby.
                     if (intAnswer == 1)
                     {
-                        AddName(names); // Přidání jména do seznamu jmen.
+                        // Přidání jména do seznamu jmen
+                        Console.Write("Name: ");
+                        string name = Console.ReadLine();
+                        AddName(names, name);
+
+                        // Aktualizace stavu - pokud je dostatek jmen, povolí se volba pro vytvoření týmů
                         if (!enabled && names.Count > 1)
                         {
-                            enabled = true; // Aktivace možnosti vytvářet týmy.
+                            enabled = true;
                         }
                     }
                     else if (intAnswer == 2 && enabled)
                     {
-                        break; // Vytvoření týmů na základě zadaných jmen.
+                        // Pokud je volba povolena a uživatel vybere možnost vytvoření týmů, ukončí se smyčka a pokračuje se k vytváření týmů
+                        break;
                     }
                     else if (intAnswer == 0)
                     {
-                        return; // Ukončení programu.
+                        // Pokud uživatel zvolí ukončení programu, metoda se vrátí a program skončí
+                        return;
                     }
                     else
                     {
-                        PrintError("You entered an invalid number!"); // Vypsání chybového hlášení.
+                        // Pokud uživatel zvolí neplatnou volbu, vypíše se chybová zpráva
+                        PrintError("You entered an invalid number!");
                     }
                 }
                 else
                 {
-                    PrintError("You didn't enter a number!"); // Vypsání chybového hlášení.
+                    // Pokud uživatel nezadá číselnou volbu, vypíše se chybová zpráva
+                    PrintError("You didn't enter a number!");
                 }
             }
 
+            // Po výběru možnosti vytvořit týmy se získá počet požadovaných týmů od uživatele
             int count;
 
             while (true)
@@ -86,120 +97,136 @@ namespace ConsoleRandomizer
 
                 if (Int32.TryParse(answer, out count))
                 {
-                    // Kontrola platnosti zadaného počtu týmů.
+                    // Kontrola platnosti zadaného počtu týmů
                     if (count >= names.Count)
                     {
                         PrintError("The number of teams must be less than or equal to the number of names!");
                     }
                     else if (count >= minTeams && count <= maxTeams)
                     {
-                        break; // Pokračování ve vytváření týmů.
+                        // Pokud je zadaný počet týmů platný, ukončí se smyčka a pokračuje se k vytváření týmů
+                        break;
                     }
                     else
                     {
+                        // Pokud je zadaný počet týmů mimo povolený rozsah, vypíše se chybová zpráva
                         PrintError($"You entered a number outside the range of {minTeams}-{maxTeams}!");
                     }
                 }
                 else if (answer.Equals("exit"))
                 {
-                    return; // Návrat do hlavního menu.
+                    // Pokud uživatel zvolí návrat do menu, metoda se vrátí a program pokračuje z hlavního menu
+                    return;
                 }
                 else
                 {
-                    PrintError("You didn't enter a number!"); // Vypsání chybového hlášení.
+                    // Pokud uživatel nezadá číselnou hodnotu, vypíše se chybová zpráva
+                    PrintError("You didn't enter a number!");
                 }
             }
 
-            CreateTeams(names, count); // Vytvoření týmů.
+            // Vytvoření týmů na základě zadaných jmen a počtu týmů
+            string teamsAsString = CreateTeams(names, count);
+
+            // Vypsání vytvořených týmů
+            Console.WriteLine(teamsAsString);
         }
 
         /// <summary>
         /// Přidá jméno do seznamu jmen pro týmy.
         /// </summary>
         /// <param name="names">Seznam jmen pro týmy.</param>
-        private void AddName(List<string> names)
+        /// <param name="name">Jméno, které má být přidáno do seznamu.</param>
+        public void AddName(List<string> names, string name)
         {
-            Console.Write("Name: ");
-            string name = Console.ReadLine();
             names.Add(name);
         }
 
         /// <summary>
-        /// Vytvoří týmy na základě zadaných jmen. Pokud je počet jmen menší než počet týmů, každý tým bude obsahovat pouze jednoho hráče.
-        /// Pokud je počet jmen větší než počet týmů, jsou týmy vytvořeny férově tak, aby byla zachována rovnoměrná distribuce hráčů.
+        /// Metoda pro vytvoření týmů ze seznamu jmen.
         /// </summary>
-        /// <param name="names">Seznam jmen, ze kterých mají být vytvořeny týmy.</param>
-        /// <param name="count">Počet týmů k vytvoření.</param>
-        private void CreateTeams(List<string> names, int count)
+        /// <param name="names">Seznam jmen hráčů k rozdělení do týmů.</param>
+        /// <param name="count">Počet týmů, které mají být vytvořeny.</param>
+        /// <returns>Textový řetězec obsahující informace o vytvořených týmech.</returns>
+        public string CreateTeams(List<string> names, int count)
         {
-            // Vypočítá počet hráčů v jednom týmu, zaokrouhlený nahoru.
+            string result = "";
+
+            // Výpočet počtu hráčů v každém týmu
             int numberOfNamesInTeam = (int)Math.Ceiling((double)names.Count / count);
 
-            // Počet zbývajících hráčů, které ještě není přiřazeno do týmů.
+            // Počet zbývajících hráčů k přiřazení do týmů
             int remainingPlayers = names.Count;
 
-            // Projde všechny týmy a přiřadí jim hráče z listu jmen.
+            // Procházení počtu týmů
             for (int i = 1; i <= count; i++)
             {
-                // Určí počet hráčů v aktuálním týmu. Poslední tým může mít méně hráčů, pokud nebylo přesně rozděleno.
+                // Určení počtu hráčů v daném týmu
                 int playersInTeam = Math.Min(numberOfNamesInTeam, remainingPlayers);
 
-                // Inicializuje nový tým pro aktuální hráče.
+                // Inicializace seznamu pro uchování jmen týmu
                 List<string> team = new List<string>();
 
-                // Přiřadí hráče do týmu, dokud nejsou naplněny všechny pozice v týmu nebo není vyčerpán seznam jmen.
+                // Přiřazení hráčů do týmu
                 for (int x = 0; x < playersInTeam; x++)
                 {
-                    // Zajistí, že jsou k dispozici další hráči v seznamu jmen.
+                    // Získání náhodného indexu ze seznamu jmen
                     if (names.Count > 0)
                     {
-                        // Náhodně vybere hráče ze seznamu jmen.
                         int index = random.Next(0, names.Count);
-                        // Přidá a odstraní vybraného hráče.
+
+                        // Přidání hráče do týmu
                         team.Add(names[index]);
                         names.RemoveAt(index);
                     }
                     else
                     {
-                        // Pokud nejsou k dispozici žádní další hráči, přeruší cyklus.
                         break;
                     }
                 }
 
-                // Aktualizuje počet zbývajících hráčů.
+                // Aktualizace zbývajícího počtu hráčů k přiřazení do týmů
                 remainingPlayers -= playersInTeam;
 
-                // Vypíše jména hráčů v aktuálním týmu.
-                Console.Write($"Team {i}: ");
-                WriteTeam(team);
+                // Převod seznamu jmen týmu na textový řetězec
+                string teamAsString = TeamAsString(team);
 
-                // Pokud již nejsou k dispozici žádní další hráči, přeruší tvorbu dalších týmů.
+                // Přidání informací o týmu do výsledného textového řetězce
+                result += $"Team {i}: {teamAsString}";
+
+                // Pokud již nejsou žádná další jména k přiřazení, ukončení cyklu
                 if (names.Count == 0)
                 {
                     break;
                 }
             }
+
+            // Vracení výsledného textového řetězce obsahujícího informace o vytvořených týmech
+            return result;
         }
 
 
         /// <summary>
-        /// Vypíše jména členů týmu oddělená čárkou.
+        /// Metoda pro převod seznamu jmen týmu na textový řetězec.
         /// </summary>
-        /// <param name="team">Seznam jmen členů týmu.</param>
-        private void WriteTeam(List<string> team)
+        /// <param name="team">Seznam jmen týmu.</param>
+        /// <returns>Textový řetězec obsahující jména týmu oddělená čárkami.</returns>
+        public string TeamAsString(List<string> team)
         {
+            string result = "";
             for (int i = 0; i < team.Count; i++)
             {
                 if (i == 0)
                 {
-                    Console.Write(team[i]);
+                    result += $"{team[i]}";
                 }
                 else
                 {
-                    Console.Write(", " + team[i]);
+                    result += $", {team[i]}";
                 }
             }
-            Console.WriteLine();
+            return result;
         }
+
     }
 }

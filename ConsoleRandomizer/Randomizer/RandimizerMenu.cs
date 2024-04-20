@@ -4,16 +4,15 @@ using System.Collections.Generic;
 namespace ConsoleRandomizer
 {
     /// <summary>
-    /// Třída reprezentující hlavní menu pro konzolový náhodný generátor.
+    /// Třída reprezentující hlavní menu pro ovládání různých generátorů náhodných prvků.
     /// </summary>
     public class RandomizerMenu : RandomizerBase
     {
         /// <summary>
-        /// Konstruktor třídy RandomizerMenu. Inicializuje instance jednotlivých generátorů a třidy pro výpis chyby.
+        /// Konstruktor třídy RandomizerMenu, inicializuje instance různých generátorů náhodných prvků.
         /// </summary>
         public RandomizerMenu()
         {
-            // Inicializace proměnných třídy
             numberGenerator = new NumbersGenerator();
             optionsGenerator = new OptionsGenerator();
             diceRoll = new DiceRoll();
@@ -29,7 +28,7 @@ namespace ConsoleRandomizer
             magic8Ball = new Magic8Ball();
         }
 
-        // Deklarace proměnných třídy
+        // Instance generátorů náhodných prvků
         private readonly NumbersGenerator numberGenerator;
         private readonly OptionsGenerator optionsGenerator;
         private readonly DiceRoll diceRoll;
@@ -45,28 +44,28 @@ namespace ConsoleRandomizer
         private readonly Magic8Ball magic8Ball;
 
         /// <summary>
-        /// Zobrazí hlavní menu a zpracuje vstup od uživatele.
+        /// Zobrazuje hlavní menu a zpracovává volbu uživatele.
         /// </summary>
         public override void Display()
         {
-            // Nastavení kódování pro výstup konzole pro zvládnutí speciálních znaků
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             while (true)
             {
                 Console.WriteLine(GetMainMenu());
                 Console.Write("Enter your choice: ");
+
                 string answer = Console.ReadLine();
 
                 if (answer.Equals("0"))
                 {
-                    // Ukončí aplikaci, pokud uživatel zvolí ukončení
                     Environment.Exit(0);
                 }
                 else if (Int32.TryParse(answer, out int choice))
                 {
                     switch (choice)
                     {
+                        // Rozlišení výběru uživatele a zobrazení odpovídajícího podmenu
                         case 1:
                             Console.WriteLine(GetRandomizerMenu("║              Numbers               ║"));
                             numberGenerator.Display();
@@ -143,10 +142,10 @@ namespace ConsoleRandomizer
         }
 
         /// <summary>
-        /// Metoda pro sestavení a vrácení obsahu menu.
+        /// Vrací hlavní menu s výběrem možností pro uživatele.
         /// </summary>
         /// <param name="clearConsole">Určuje, zda se má konzole vyčistit před zobrazením menu.</param>
-        /// <returns>Textový obsah menu.</returns>
+        /// <returns>Text hlavního menu.</returns>
         public string GetMainMenu(bool clearConsole = true)
         {
             if (clearConsole)
@@ -154,42 +153,39 @@ namespace ConsoleRandomizer
                 Console.Clear();
             }
 
-            // Sestavení obsahu menu do řetězce
             string menu =
-                "╔════════════════════════════════════╗\n" +
-                "║         Console Randomizer         ║\n" +
-                "╠════════════════════════════════════╣\n" +
-                "║                Menu                ║\n" +
-                "╠════════════════════════════════════╣\n" +
-                "║ 1) Numbers                         ║\n" +
-                "║ 2) Yes or No                       ║\n" +
-                "║ 3) Coin Flip                       ║\n" +
-                "║ 4) Rock, Paper, Scissors           ║\n" +
-                "║ 5) Dice Rolls                      ║\n" +
-                "║ 6) Colors                          ║\n" +
-                "║ 7) Letters                         ║\n" +
-                "║ 8) Teams                           ║\n" +
-                "║ 9) List                            ║\n" +
-                "║ 10) Card                           ║\n" +
-                "║ 11) Country                        ║\n" +
-                "║ 12) Date                           ║\n" +
-                "║ 13) Time                           ║\n" +
-                "║ 14) Password                       ║\n" +
-                "║ 15) Magic 8 Ball                   ║\n" +
-                "║ 0) Exit                            ║\n" +
-                "╚════════════════════════════════════╝";
+                $"╔════════════════════════════════════╗{Environment.NewLine}" +
+                $"║         Console Randomizer         ║{Environment.NewLine}" +
+                $"╠════════════════════════════════════╣{Environment.NewLine}" +
+                $"║                Menu                ║{Environment.NewLine}" +
+                $"╠════════════════════════════════════╣{Environment.NewLine}" +
+                $"║ 1) Numbers                         ║{Environment.NewLine}" +
+                $"║ 2) Yes or No                       ║{Environment.NewLine}" +
+                $"║ 3) Coin Flip                       ║{Environment.NewLine}" +
+                $"║ 4) Rock, Paper, Scissors           ║{Environment.NewLine}" +
+                $"║ 5) Dice Rolls                      ║{Environment.NewLine}" +
+                $"║ 6) Colors                          ║{Environment.NewLine}" +
+                $"║ 7) Letters                         ║{Environment.NewLine}" +
+                $"║ 8) Teams                           ║{Environment.NewLine}" +
+                $"║ 9) List                            ║{Environment.NewLine}" +
+                $"║ 10) Card                           ║{Environment.NewLine}" +
+                $"║ 11) Country                        ║{Environment.NewLine}" +
+                $"║ 12) Date                           ║{Environment.NewLine}" +
+                $"║ 13) Time                           ║{Environment.NewLine}" +
+                $"║ 14) Password                       ║{Environment.NewLine}" +
+                $"║ 15) Magic 8 Ball                   ║{Environment.NewLine}" +
+                $"║ 0) Exit                            ║{Environment.NewLine}" +
+                $"╚════════════════════════════════════╝";
 
-            // Vrácení sestaveného menu
             return menu;
         }
 
-
         /// <summary>
-        /// Metoda pro sestavení a vrácení textového obsahu menu s titulkem.
+        /// Vrací podmenu s názvem zvolené funkce pro generování náhodných prvků.
         /// </summary>
-        /// <param name="title">Titulek menu.</param>
+        /// <param name="title">Název zvolené funkce.</param>
         /// <param name="clearConsole">Určuje, zda se má konzole vyčistit před zobrazením menu.</param>
-        /// <returns>Textový obsah menu.</returns>
+        /// <returns>Text podmenu.</returns>
         public string GetRandomizerMenu(string title, bool clearConsole = true)
         {
             if (clearConsole)
@@ -197,14 +193,12 @@ namespace ConsoleRandomizer
                 Console.Clear();
             }
 
-            // Sestavení obsahu menu do řetězce
             string menu = $"╔════════════════════════════════════╗{Environment.NewLine}" +
                           $"║         Console Randomizer         ║{Environment.NewLine}" +
                           $"╠════════════════════════════════════╣{Environment.NewLine}" +
                           $"{title}{Environment.NewLine}" +
                           $"╚════════════════════════════════════╝";
 
-            // Vrácení sestaveného menu
             return menu;
         }
     }

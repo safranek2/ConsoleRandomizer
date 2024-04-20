@@ -99,7 +99,6 @@ namespace ConsoleRandomizer
             return luminance > 0.5 ? Color.Black : Color.White;
         }
 
-
         /// <summary>
         /// Metoda pro nastavení barvy pozadí konzole.
         /// </summary>

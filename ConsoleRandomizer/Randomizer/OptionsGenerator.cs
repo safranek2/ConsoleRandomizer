@@ -25,11 +25,23 @@ namespace ConsoleRandomizer
         /// <param name="list">Seznam možností.</param>
         public void Display(List<string> list)
         {
-            // Generuje náhodný index v rozsahu seznamu možností.
-            int randomIndex = random.Next(0, list.Count);
+            // Vrátí náhodnou možnost v seznamu a vypše ji.
+            string randomItem = GenerateItem(list);
+            Console.WriteLine($"It is: {randomItem}");
+        }
 
-            // Zobrazí náhodnou možnost v konzoli.
-            Console.WriteLine($"It is: {list[randomIndex]}");
+        /// <summary>
+        /// Generuje a vrátí náhodnou možnost z daného seznamu.
+        /// </summary>
+        /// <param name="list">Seznam možností.</param>
+        /// <returns>Náhodně vybraná možnost ze seznamu.</returns>
+        public string GenerateItem(List<string> list)
+        {
+            int randomIndex = random.Next(0, list.Count); // Generuje náhodný index v rozsahu seznamu možností.
+
+            string randomItem = list[randomIndex]; // Vybere náhodnou možnost z daného seznamu.
+
+            return randomItem; // Vrátí náhodně vybranou možnost ze seznamu.
         }
     }
 }

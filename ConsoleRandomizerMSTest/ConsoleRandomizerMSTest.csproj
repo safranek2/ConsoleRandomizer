@@ -25,6 +25,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="TestResources\Alphabets\AlphabetsInvalidFormat2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestResources\Alphabets\AlphabetsInvalidFormat3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestResources\Alphabets\AlphabetsInvalidFormat4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestResources\Alphabets\AlphabetsInvalidFormat5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestResources\Alphabets\AlphabetsInvalidFormat1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="TestResources\Alphabets\AlphabetsValidFormat.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
