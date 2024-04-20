@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleRandomizerMSTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+758ea7049f2d827cffddcc57bef0bca314336041")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ce89d85c95c9ddd7a6cb12ca24f2069a30f4adb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleRandomizerMSTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleRandomizerMSTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

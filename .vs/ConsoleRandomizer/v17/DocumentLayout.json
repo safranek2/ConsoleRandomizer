@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2133ABAA-E648-4BA9-9370-49DAFE3AC8E7}|AI Setup Project\\AI Setup Project.aiproj|C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\AI Setup Project\\AI Setup Project.aip||{AE40A4D1-A614-4A08-B9E2-B74E011783ED}",
-      "RelativeMoniker": "D:0:0:{2133ABAA-E648-4BA9-9370-49DAFE3AC8E7}|AI Setup Project\\AI Setup Project.aiproj|solutionrelative:AI Setup Project\\AI Setup Project.aip||{AE40A4D1-A614-4A08-B9E2-B74E011783ED}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ConsoleRandomizer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
@@ -428,18 +424,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AI Setup Project.aip",
-              "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\AI Setup Project\\AI Setup Project.aip",
-              "RelativeDocumentMoniker": "AI Setup Project\\AI Setup Project.aip",
-              "ToolTip": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\AI Setup Project\\AI Setup Project.aip",
-              "RelativeToolTip": "AI Setup Project\\AI Setup Project.aip",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVDhPhVNLKERRGD5zETU1NlaEmCI7r0QSSRQrC7JRYiElyWqwsZKITIkNsmCBQuxsKNmNd1aSR2bkWV4hcX3fuefmuHl89c33/XPO/5//PK5LAE89STGQA3AdXFXccvuO3qG/wzRNu0A1ZJpewz24Bq7evnsmas66btZHKk05osFQWqZUhwesAHu7r2sLoPv5TfNVHNBhFyhRquMcXAQDuy/eHGgaOIMio2AYvISB9lOgCVb4hbn7wvrSk4Gr9svGToT6yg1gn2WtDkotKzELTtJ4wp44Ftp4TvVBvfxPQyu6yKbhpDwaYAcrrnFV\u002BNkSd2BmObGtMtL1NmwNfwMPv4XGKD/tW1l4KKj6EEY/4vjEiItNaCboBoOvZsQcdAJ0opg/LrRiXw2vzWOIj6HxuJ6p2PDrXMSHeAtLmJMBz8LfgGt1cQsvViivTaCT5rpgRwwSB5ksR4SIU6pD5rHAHo0DfqyaRQPldvz0Dsg8FuAenUgGA0jmKhsqdkLmscAQGGLwAyKVOsH5zBMGDuIRym/BPov/wHnVKk92wNPkV1gEHjP\u002BAxwvUvMl5NdoA3uOgvCp8ummg9HgHbgN8pWOIVnrVIhPzkGPxMISqlgAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-04-20T18:20:10.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ConsoleRandomizer",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\ConsoleRandomizer.csproj",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\ConsoleRandomizer.csproj",
@@ -451,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RandimizerMenu.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\RandimizerMenu.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\RandimizerMenu.cs",
@@ -463,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "PasswordSettings.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Resources\\PasswordSettings.json",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Resources\\PasswordSettings.json",
@@ -475,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "TeamsSettings.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Resources\\TeamsSettings.json",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Resources\\TeamsSettings.json",
@@ -487,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ClosestConsoleColor.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\vendor\\ClosestConsoleColor.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\vendor\\ClosestConsoleColor.cs",
@@ -499,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\ErrorController.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\ErrorController.cs",
@@ -511,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "JSONLoader.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoader.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoader.cs",
@@ -523,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RandomizerBase.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\RandomizerBase.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\RandomizerBase.cs",
@@ -535,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "NumbersSettings.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Resources\\NumbersSettings.json",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Resources\\NumbersSettings.json",
@@ -547,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Magic8BallAnswers.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Resources\\Magic8BallAnswers.json",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Resources\\Magic8BallAnswers.json",
@@ -559,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Countries.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Resources\\Countries.json",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Resources\\Countries.json",
@@ -571,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Alphabets.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Resources\\Alphabets.json",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Resources\\Alphabets.json",
@@ -583,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "TimeGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\TimeGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\TimeGenerator.cs",
@@ -595,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "TeamsGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\TeamsGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\TeamsGenerator.cs",
@@ -607,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "PasswordGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\PasswordGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\PasswordGenerator.cs",
@@ -619,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "OptionsGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\OptionsGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\OptionsGenerator.cs",
@@ -631,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "NumberGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\NumberGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\NumberGenerator.cs",
@@ -643,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Magic8Ball.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\Magic8Ball.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\Magic8Ball.cs",
@@ -655,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ListGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\ListGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\ListGenerator.cs",
@@ -667,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "LetterGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\LetterGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\LetterGenerator.cs",
@@ -679,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "DiceRoll.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\DiceRoll.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\DiceRoll.cs",
@@ -691,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "DateGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\DateGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\DateGenerator.cs",
@@ -703,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "CountryGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\CountryGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\CountryGenerator.cs",
@@ -715,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "ColorGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\ColorGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\ColorGenerator.cs",
@@ -727,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "CardGenerator.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\Randomizer\\CardGenerator.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\Randomizer\\CardGenerator.cs",
@@ -739,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "LoadTeamsSettingsFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadTeamsSettingsFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadTeamsSettingsFromJSON.cs",
@@ -751,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "LoadPasswordSettingsFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadPasswordSettingsFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadPasswordSettingsFromJSON.cs",
@@ -763,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "LoadNumbersSettingsFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadNumbersSettingsFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadNumbersSettingsFromJSON.cs",
@@ -775,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "LoadMagic8BallAnswersFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadMagic8BallAnswersFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadMagic8BallAnswersFromJSON.cs",
@@ -787,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "LoadDiceSettingsFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadDiceSettingsFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadDiceSettingsFromJSON.cs",
@@ -799,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "LoadCountriesFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadCountriesFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadCountriesFromJSON.cs",
@@ -811,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "LoadAlphabetsFromJSON.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONLoaderMethods\\LoadAlphabetsFromJSON.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONLoaderMethods\\LoadAlphabetsFromJSON.cs",
@@ -823,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "TeamsSettigns.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\TeamsSettigns.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\TeamsSettigns.cs",
@@ -835,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "PasswordSettings.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\PasswordSettings.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\PasswordSettings.cs",
@@ -847,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "NumbersSettings.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\NumbersSettings.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\NumbersSettings.cs",
@@ -859,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "Magic8BallAnswers.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\Magic8BallAnswers.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\Magic8BallAnswers.cs",
@@ -871,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "CharactersDictionary.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\CharactersDictionary.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\CharactersDictionary.cs",
@@ -883,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "DiceSettings.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\DiceSettings.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\DiceSettings.cs",
@@ -895,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "Countries.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\Countries.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\Countries.cs",
@@ -907,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "Alphabets.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizer\\JSONClasses\\Alphabets.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizer\\JSONClasses\\Alphabets.cs",
@@ -919,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "NumberGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\NumberGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\NumberGeneratorTest.cs",
@@ -931,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "DiceRollTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\DiceRollTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\DiceRollTest.cs",
@@ -943,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "OptionsGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\OptionsGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\OptionsGeneratorTest.cs",
@@ -955,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "PasswordGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\PasswordGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\PasswordGeneratorTest.cs",
@@ -967,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "TeamsGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TeamsGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TeamsGeneratorTest.cs",
@@ -979,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "TimeGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TimeGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TimeGeneratorTest.cs",
@@ -991,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "ErrorControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\ErrorControllerTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\ErrorControllerTest.cs",
@@ -1003,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "RandomizerMenuTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\RandomizerMenuTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\RandomizerMenuTest.cs",
@@ -1015,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "Magic8BallTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\Magic8BallTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\Magic8BallTest.cs",
@@ -1027,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "LoadAlphabetsFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadAlphabetsFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadAlphabetsFromJSONTest.cs",
@@ -1039,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "ListGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\ListGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\ListGeneratorTest.cs",
@@ -1051,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "LetterGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LetterGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LetterGeneratorTest.cs",
@@ -1063,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "CountryGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\CountryGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\CountryGeneratorTest.cs",
@@ -1075,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "DateGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\DateGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\DateGeneratorTest.cs",
@@ -1087,7 +1071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "LoadCountriesFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadCountriesFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadCountriesFromJSONTest.cs",
@@ -1099,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "LoadDiceSettingsFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadDiceSettingsFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadDiceSettingsFromJSONTest.cs",
@@ -1111,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "LoadMagic8BallAnswersFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadMagic8BallAnswersFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadMagic8BallAnswersFromJSONTest.cs",
@@ -1123,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "LoadNumbersSettingsFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadNumbersSettingsFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadNumbersSettingsFromJSONTest.cs",
@@ -1135,7 +1119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "LoadPasswordSettingsFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadPasswordSettingsFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadPasswordSettingsFromJSONTest.cs",
@@ -1147,7 +1131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 59,
               "Title": "LoadTeamsSettingsFromJSONTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\LoadTeamsSettingsFromJSONTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\LoadTeamsSettingsFromJSONTest.cs",
@@ -1159,7 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 60,
               "Title": "CardGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\CardGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\CardGeneratorTest.cs",
@@ -1171,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 61,
               "Title": "ColorGeneratorTest.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\ColorGeneratorTest.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\ColorGeneratorTest.cs",
@@ -1183,7 +1167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 62,
               "Title": "ConsoleRandomizerMSTest.csproj",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\ConsoleRandomizerMSTest.csproj",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\ConsoleRandomizerMSTest.csproj",
@@ -1195,7 +1179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 63,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\GlobalUsings.cs",
@@ -1206,12 +1190,8 @@
               "WhenOpened": "2024-04-17T13:10:50.477Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 68,
               "Title": "TeamsSettingsInvalidFormat1.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat1.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat1.json",
@@ -1223,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 67,
               "Title": "TeamsSettingsInvalidFormat2.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat2.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat2.json",
@@ -1235,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 64,
               "Title": "TeamsSettingsInvalidFormat5.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat5.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat5.json",
@@ -1247,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 66,
               "Title": "TeamsSettingsInvalidFormat3.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat3.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat3.json",
@@ -1259,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
               "Title": "TeamsSettingsInvalidFormat4.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat4.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\TeamsSettings\\TeamsSettingsInvalidFormat4.json",
@@ -1271,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 69,
               "Title": "PasswordSettingsInvalidFormat11.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat11.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat11.json",
@@ -1283,7 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 71,
               "Title": "PasswordSettingsInvalidFormat10.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat10.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat10.json",
@@ -1295,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 72,
               "Title": "PasswordSettingsInvalidFormat6.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat6.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat6.json",
@@ -1307,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 73,
               "Title": "PasswordSettingsInvalidFormat7.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat7.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat7.json",
@@ -1319,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 74,
               "Title": "PasswordSettingsInvalidFormat8.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat8.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat8.json",
@@ -1331,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 75,
               "Title": "PasswordSettingsInvalidFormat9.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat9.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat9.json",
@@ -1343,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 70,
               "Title": "PasswordSettingsInvalidFormat1.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat1.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat1.json",
@@ -1355,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 76,
               "Title": "PasswordSettingsInvalidFormat4.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat4.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat4.json",
@@ -1367,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 77,
               "Title": "PasswordSettingsInvalidFormat3.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat3.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat3.json",
@@ -1379,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 78,
               "Title": "PasswordSettingsInvalidFormat2.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat2.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat2.json",
@@ -1391,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 79,
               "Title": "PasswordSettingsInvalidFormat5.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat5.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\PasswordSettings\\PasswordSettingsInvalidFormat5.json",
@@ -1403,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 82,
               "Title": "NumbersSettingsInvalidFormat5.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat5.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat5.json",
@@ -1415,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 81,
               "Title": "NumbersSettingsInvalidFormat6.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat6.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat6.json",
@@ -1427,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 80,
               "Title": "NumbersSettingsValidFormat.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsValidFormat.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsValidFormat.json",
@@ -1439,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 83,
               "Title": "NumbersSettingsInvalidFormat4.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat4.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat4.json",
@@ -1451,7 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 84,
               "Title": "NumbersSettingsInvalidFormat3.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat3.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat3.json",
@@ -1463,7 +1443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 85,
               "Title": "NumbersSettingsInvalidFormat2.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat2.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat2.json",
@@ -1475,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 86,
               "Title": "NumbersSettingsInvalidFormat1.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat1.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\NumbersSettings\\NumbersSettingsInvalidFormat1.json",
@@ -1487,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 87,
               "Title": "Magic8BallAnswersInvalidFormat2.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Magic8BallAnswers\\Magic8BallAnswersInvalidFormat2.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Magic8BallAnswers\\Magic8BallAnswersInvalidFormat2.json",
@@ -1499,7 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 88,
               "Title": "Magic8BallAnswersInvalidFormat1.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Magic8BallAnswers\\Magic8BallAnswersInvalidFormat1.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Magic8BallAnswers\\Magic8BallAnswersInvalidFormat1.json",
@@ -1511,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 89,
               "Title": "DiceSettingsInvalidFormat6.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat6.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat6.json",
@@ -1523,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 90,
               "Title": "DiceSettingsInvalidFormat8.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat8.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat8.json",
@@ -1535,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 91,
               "Title": "DiceSettingsInvalidFormat5.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat5.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat5.json",
@@ -1547,7 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 92,
               "Title": "DiceSettingsInvalidFormat4.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat4.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\DiceSettings\\DiceSettingsInvalidFormat4.json",
@@ -1559,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 93,
               "Title": "CountriesInvalidFormat3.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesInvalidFormat3.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesInvalidFormat3.json",
@@ -1571,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 94,
               "Title": "CountriesValidFormat.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesValidFormat.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesValidFormat.json",
@@ -1583,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 96,
               "Title": "CountriesInvalidFormat1.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesInvalidFormat1.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesInvalidFormat1.json",
@@ -1595,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 95,
               "Title": "CountriesInvalidFormat2.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesInvalidFormat2.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Countries\\CountriesInvalidFormat2.json",
@@ -1607,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 97,
               "Title": "AlphabetsInvalidFormat5.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Alphabets\\AlphabetsInvalidFormat5.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Alphabets\\AlphabetsInvalidFormat5.json",
@@ -1619,7 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 98,
               "Title": "Magic8BallAnswersValidFormat.json",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\TestResources\\Magic8BallAnswers\\Magic8BallAnswersValidFormat.json",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\TestResources\\Magic8BallAnswers\\Magic8BallAnswersValidFormat.json",
@@ -1631,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 99,
               "Title": "ConsoleRandomizerMSTest",
               "DocumentMoniker": "C:\\Users\\safra\\OneDrive\\Plocha\\ConsoleRandomizer\\ConsoleRandomizerMSTest\\ConsoleRandomizerMSTest.csproj",
               "RelativeDocumentMoniker": "ConsoleRandomizerMSTest\\ConsoleRandomizerMSTest.csproj",
@@ -1642,7 +1622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 100,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Aplikace\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Aplikace\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
