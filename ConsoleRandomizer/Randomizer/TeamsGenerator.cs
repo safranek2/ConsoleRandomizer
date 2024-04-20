@@ -205,28 +205,33 @@ namespace ConsoleRandomizer
             return result;
         }
 
-
         /// <summary>
-        /// Metoda pro převod seznamu jmen týmu na textový řetězec.
+        /// Metoda převede seznam jmen týmu na řetězec, kde jednotlivá jména jsou oddělena čárkami.
         /// </summary>
-        /// <param name="team">Seznam jmen týmu.</param>
-        /// <returns>Textový řetězec obsahující jména týmu oddělená čárkami.</returns>
+        /// <param name="team">Seznam obsahující jména členů týmu.</param>
+        /// <returns>Řetězec obsahující jména členů týmu, oddělená čárkami.</returns>
         public string TeamAsString(List<string> team)
         {
+            // Inicializace proměnné pro uchování výsledného řetězce.
             string result = "";
+
+            // Procházení všech prvků seznamu.
             for (int i = 0; i < team.Count; i++)
             {
+                // Pokud je to první prvek seznamu, není přidána čárka před jménem.
                 if (i == 0)
                 {
                     result += $"{team[i]}";
                 }
+                // Pokud není první prvek seznamu, přidá se čárka před jménem.
                 else
                 {
                     result += $", {team[i]}";
                 }
             }
+
+            // Návrat výsledného řetězce obsahujícího jména členů týmu.
             return result;
         }
-
     }
 }

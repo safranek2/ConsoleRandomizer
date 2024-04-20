@@ -1,3 +1,4 @@
 {
+  "minNumbers": 1, // Minimální počet čísel
   "maxNumbers": 100 // Maximální počet čísel
 }

@@ -1,5 +1,5 @@
 {
-  "countries": [ // Pole zemí
+  "countrie": [ // Pole zemí
     "Afghanistan", // Název země
     "Albania",
     "Algeria",
@@ -14,7 +14,7 @@
     "Bahamas",
     "Bahrain",
     "Bangladesh",
-    none,
+    "Barbados",
     "Belarus",
     "Belgium",
     "Belize",
