@@ -38,7 +38,6 @@ Pro každý generátor jsou k dispozici soubory JSON s nastavením, které mohou
 - Projekt využívá jazyk C# a běží v .NET 7 prostředí.
 - Pro načítání dat z JSON souborů je použita knihovna Newtonsoft.Json.
 - Kód je dobře komentován a strukturován pro snadnou čitelnost a úpravy.
-- JSON soubory se nachází ve složce `Resources`.
 
 ## Licence
 Tento projekt je licencován pod [MIT licencí](LICENSE.txt).
