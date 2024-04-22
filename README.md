@@ -1,14 +1,14 @@
 # Náhodný Generátor v Konzoli
 
-Tento projekt je jednoduchá konzolová aplikace implementující různé generátory náhodných dat. Uživatel má možnost vybírat z různých funkcí, jako je generování náhodných abeced, zemí, čísel, hesel, a mnoho dalšího. Projekt je napsán v jazyce C# a běží v konzoli.
+Tento projekt je jednoduchá konzolová aplikace implementující různé generátory náhodných dat. Uživatel má možnost vybírat z různých funkcí, jako je generování náhodného písmene, země, čísel, hesla, a mnoho dalšího. Projekt je napsán v jazyce C# a běží v konzoli.
 
 ## Funkce
 ### Generátory
 1. **Země**: Generuje náhodnou zemi.
 2. **Kostky**: Generuje hod kostkami podle nastavení kostek.
-3. **Magic8Ball**: Simuluje odpovědi kouzelné koule osudu.
+3. **Kouzelná koule osudu**: Simuluje odpovědi kouzelné koule osudu.
 4. **Čísla**: Generuje náhodná čísla podle zadaných parametrů.
-5. **Hesla**: Generuje náhodné hesla podle zadaných pravidel.
+5. **Hesla**: Generuje náhodné heslo podle zadaných pravidel.
 6. **Týmy**: Generuje náhodné týmy pro soutěže a hry.
 7. **Ano nebo Ne**: Generuje náhodnou odpověď ano nebo ne.
 8. **Hody mincí**: Simuluje hod mincí.
@@ -22,6 +22,14 @@ Tento projekt je jednoduchá konzolová aplikace implementující různé gener�
 
 ### Nastavení
 Pro každý generátor jsou k dispozici soubory JSON s nastavením, které mohou být upraveny podle potřeb uživatele. Tyto soubory se nachází ve složce `Resources` ve formátu `NazevGeneratoru.json`.
+
+- `Alphabets.json`: Obsahuje nastavení pro generátor abeced.
+- `Countries.json`: Obsahuje nastavení pro generátor zemí.
+- `DiceSettings.json`: Obsahuje nastavení pro generátor kostek.
+- `Magic8BallAnswers.json`: Obsahuje odpovědi pro simulaci odpovědi kouzelné koule osudu.
+- `NumbersSettings.json`: Obsahuje nastavení pro generátor čísel.
+- `PasswordSettings.jso`n: Obsahuje nastavení pro generátor hesla.
+- `TeamsSettings.json`: Obsahuje nastavení pro generátor týmů.
 
 ## Použití
 ### Pro Developera:
@@ -38,7 +46,6 @@ Pro každý generátor jsou k dispozici soubory JSON s nastavením, které mohou
 - Projekt využívá jazyk C# a běží v .NET 7 prostředí.
 - Pro načítání dat z JSON souborů je použita knihovna Newtonsoft.Json.
 - Kód je dobře komentován a strukturován pro snadnou čitelnost a úpravy.
-- JSON soubory se nachází ve složce `Resources`.
 
 ## Licence
 Tento projekt je licencován pod [MIT licencí](LICENSE.txt).

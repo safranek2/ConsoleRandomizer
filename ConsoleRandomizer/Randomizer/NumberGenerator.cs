@@ -187,14 +187,13 @@ namespace ConsoleRandomizer
         /// <returns>Textový řetězec obsahující čísla ve formátu indexovaného seznamu.</returns>
         public string NumbersAsString(List<int> numbers)
         {
-            string result = "";
+            string result = $"";
             for (int i = 0; i < numbers.Count; i++)
             {
-                result += $"{i + 1}) {numbers[i]}"; // Indexace začíná od 1, protože seznamy jsou obvykle indexovány od 1 pro uživatelské rozhraní.
+                result += $"{i + 1}) {numbers[i]}{Environment.NewLine}"; // Indexace začíná od 1, protože seznamy jsou obvykle indexovány od 1 pro uživatelské rozhraní.
             }
 
             return result;
         }
-
     }
 }

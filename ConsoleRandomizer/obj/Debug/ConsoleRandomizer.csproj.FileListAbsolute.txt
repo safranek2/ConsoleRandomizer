@@ -51,3 +51,7 @@ C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\Sys
 C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.csproj.SuggestedBindingRedirects.cache
 C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.exe.config
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleRandomizer.exe.manifest
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\bin\Debug\ConsoleRandomizer.application
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.exe.manifest
+C:\Users\safra\OneDrive\Plocha\ConsoleRandomizer\ConsoleRandomizer\obj\Debug\ConsoleRandomizer.application

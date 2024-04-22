@@ -1,6 +1,4 @@
-﻿using ConsoleRandomizer;
-
-namespace ConsoleRandomizerMSTest
+﻿namespace ConsoleRandomizerMSTest
 {
     /// <summary>
     /// Třída obsahující testy pro třídu CountryGenerator.

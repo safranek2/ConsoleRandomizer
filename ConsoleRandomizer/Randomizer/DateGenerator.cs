@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ConsoleRandomizer
 {
@@ -22,7 +23,6 @@ namespace ConsoleRandomizer
         {
             DateTime firstDate; // Počáteční datum
             DateTime lastDate; // Koncové datum
-
             while (true)
             {
                 // Vyzve uživatele k zadání počátečního data
@@ -36,13 +36,14 @@ namespace ConsoleRandomizer
                 }
 
                 // Pokusí se načíst počáteční datum z uživatelského vstupu
-                if (DateTime.TryParse(answer, out firstDate))
+                if (!DateTime.TryParseExact(answer, "d.M.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out firstDate))
                 {
-                    break; // Pokud je datum platné, ukončí smyčku
+                    PrintError("Invalid date format. Please enter the date in the format d.M.yyyy.");
                 }
+                // Pokud je datum platné, ukončí smyčku
                 else
                 {
-                    PrintError("You have not entered a valid date!"); // Pokud je datum neplatné, vypíše chybovou zprávu
+                    break;
                 }
             }
 
@@ -59,21 +60,18 @@ namespace ConsoleRandomizer
                 }
 
                 // Pokusí se načíst koncové datum z uživatelského vstupu
-                if (DateTime.TryParse(answer, out lastDate))
+                if (!DateTime.TryParseExact(answer, "d.M.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out lastDate))
                 {
-                    // Kontroluje, zda je koncové datum pozdější než počáteční datum
-                    if (firstDate >= lastDate)
-                    {
-                        PrintError("The last date must be later than the first date!");
-                    }
-                    else
-                    {
-                        break; // Pokud je datum platné a je pozdější než počáteční datum, ukončí smyčku
-                    }
+                    PrintError("Invalid date format. Please enter the date in the format d.M.yyyy.");
+                }
+                // Kontroluje, zda je koncové datum pozdější než počáteční datum
+                else if (firstDate >= lastDate)
+                {
+                    PrintError("The last date must be later than the first date!");
                 }
                 else
                 {
-                    PrintError("You have not entered a valid date!"); // Pokud je datum neplatné, vypíše chybovou zprávu
+                    break; // Pokud je datum platné a je pozdější než počáteční datum, ukončí smyčku
                 }
             }
 

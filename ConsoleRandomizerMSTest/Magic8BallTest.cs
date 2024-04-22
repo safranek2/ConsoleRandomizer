@@ -1,8 +1,4 @@
-﻿using ConsoleRandomizer;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections.Generic;
-
-namespace ConsoleRandomizerMSTest
+﻿namespace ConsoleRandomizerMSTest
 {
     /// <summary>
     /// Třída obsahující testy pro třídu Magic8Ball.

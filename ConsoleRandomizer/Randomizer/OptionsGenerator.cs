@@ -17,7 +17,6 @@ namespace ConsoleRandomizer
         }
 
         private readonly Random random = new Random(); // Instance třídy pro generování náhodných čísel.
-        private readonly ErrorController errorController = new ErrorController(); // Instance třídy pro zpracování chyb.
 
         /// <summary>
         /// Zobrazí náhodnou možnost z daného seznamu.

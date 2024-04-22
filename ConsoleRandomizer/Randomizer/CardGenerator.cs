@@ -89,14 +89,14 @@ namespace ConsoleRandomizer
         public static string GetOptions()
         {
             // Definuje textový řetězec obsahující seznam možností a jejich popisů
-            string options = @"Options:
-                    1) Draw a card from the standard 52-card deck
-                    2) Draw a card from a 54-card deck with 2 Jokers
-                    3) Draw a card from a 56-card deck with 4 Jokers
-                    4) Draw a card from a 36-card deck (6-A)
-                    5) Draw a card from a 32-card deck (7-A)
-                    6) Draw a card from a 24-card deck (9-A)
-                    0) Exit";
+            string options = $"Options:" +
+                    $"{Environment.NewLine}1) Draw a card from the standard 52-card deck" +
+                    $"{Environment.NewLine}2) Draw a card from a 54-card deck with 2 Jokers" +
+                    $"{Environment.NewLine}3) Draw a card from a 56-card deck with 4 Jokers" +
+                    $"{Environment.NewLine}4) Draw a card from a 36-card deck (6-A)" +
+                    $"{Environment.NewLine}5) Draw a card from a 32-card deck (7-A)" +
+                    $"{Environment.NewLine}6) Draw a card from a 24-card deck (9-A)" +
+                    $"{Environment.NewLine}0) Exit";
 
             return options; // Vrátí textový řetězec s možnostmi
         }

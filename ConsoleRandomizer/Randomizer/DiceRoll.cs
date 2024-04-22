@@ -127,7 +127,6 @@ namespace ConsoleRandomizer
             return diceList; // Vrátí seznam obsahující vygenerované hodnoty kostek
         }
 
-
         /// <summary>
         /// Generuje textový řetězec z hodnot kostek uložených v seznamu.
         /// </summary>

@@ -96,7 +96,9 @@ namespace ConsoleRandomizer
             double luminance = (0.299 * backgroundColor.R + 0.587 * backgroundColor.G + 0.114 * backgroundColor.B) / 255;
 
             // Určí kontrastní barvu textu na základě jasu pozadí
-            return luminance > 0.5 ? Color.Black : Color.White;
+            Color contrastColor = luminance > 0.5 ? Color.Black : Color.White;
+
+            return contrastColor;
         }
 
         /// <summary>

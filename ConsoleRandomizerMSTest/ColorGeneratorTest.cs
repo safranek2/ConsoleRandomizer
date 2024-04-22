@@ -1,5 +1,4 @@
-﻿using ConsoleRandomizer;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace ConsoleRandomizerMSTest
 {

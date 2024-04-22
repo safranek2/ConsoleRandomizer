@@ -1,7 +1,6 @@
 ﻿using ConsoleRandomizer.Randomizer.JSON_Classes;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace ConsoleRandomizer
@@ -159,7 +158,7 @@ namespace ConsoleRandomizer
             for (int i = 0; i < chars.Count; i++)
             {
                 // Vytváří řetězec s informacemi o každém znaku (zda je nebo není použit ve vytvářeném hesle)
-                randomPassword += $"{chars.ElementAt(i)}: {passwordChars.ContainsKey(chars.ElementAt(i).Key)}";
+                randomPassword += $"{chars.ElementAt(i)}: {passwordChars.ContainsKey(chars.ElementAt(i).Key)}{Environment.NewLine}";
             }
 
             return randomPassword;

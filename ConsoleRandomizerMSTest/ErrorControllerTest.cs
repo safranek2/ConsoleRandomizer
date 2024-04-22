@@ -1,8 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.IO;
-
-namespace ConsoleRandomizerMSTest
+﻿namespace ConsoleRandomizerMSTest
 {
     /// <summary>
     /// Testovací třída pro funkčnost třídy ErrorController.

@@ -1,9 +1,4 @@
-﻿using ConsoleRandomizer;
-using System;
-using System.IO;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace ConsoleRandomizerMSTest
+﻿namespace ConsoleRandomizerMSTest
 {
     /// <summary>
     /// Třída obsahující testovací metody pro načítání nastavení hesel z JSON souboru.

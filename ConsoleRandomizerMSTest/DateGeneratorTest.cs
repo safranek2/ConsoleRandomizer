@@ -1,11 +1,4 @@
-﻿using ConsoleRandomizer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleRandomizerMSTest
+﻿namespace ConsoleRandomizerMSTest
 {
     /// <summary>
     /// Třída obsahující testy pro třídu DateGenerator.
