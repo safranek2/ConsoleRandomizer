@@ -28,7 +28,7 @@ Pro každý generátor jsou k dispozici soubory JSON s nastavením, které mohou
 - `DiceSettings.json`: Obsahuje nastavení pro generátor kostek.
 - `Magic8BallAnswers.json`: Obsahuje odpovědi pro simulaci odpovědi kouzelné koule osudu.
 - `NumbersSettings.json`: Obsahuje nastavení pro generátor čísel.
-- `PasswordSettings.jso`n: Obsahuje nastavení pro generátor hesla.
+- `PasswordSettings.json`: Obsahuje nastavení pro generátor hesla.
 - `TeamsSettings.json`: Obsahuje nastavení pro generátor týmů.
 
 ## Použití
